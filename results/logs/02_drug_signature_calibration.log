@@ -1,0 +1,12 @@
+SIDER: 28 hair-growth drugs, 411 hair-loss drugs
+[lincs | invivo_100] AUROC 0.539 (p=0.261) | top: ABT-751, LY-2183240, Vincristine, Vinorelbine, JNK-IN-5A, PF-03758309
+[lincs | dht_100] AUROC 0.630 (p=0.021) | top: SB-2343, GSK-1059615, SA-1920013, PIK-90, GSK-2334470, PP-2
+[lincs | invivo_200] AUROC 0.510 (p=0.459) | top: LY-2183240, Vincristine, SA-1472542, ABT-751, NGB-2904, SA-441487
+[lincs | dht_200] AUROC 0.596 (p=0.076) | top: BMS-536924, PP-2, GSK-1059615, PP-110, PIK-90, WYE-354
+[cmap | invivo_100] AUROC 0.651 (p=0.050) | top: MG-132, MS-275, 2-deoxy-D-glucose, menadione, MG-262, valinomycin
+[cmap | dht_100] AUROC 0.342 (p=0.972) | top: cephaeline, emetine, fisetin, napelline, phenyl biguanide, metoprolol
+[cmap | invivo_200] AUROC 0.664 (p=0.030) | top: menadione, 2-deoxy-D-glucose, danazol, 1,4-chrysenequinone, valinomycin, 5224221
+[cmap | dht_200] AUROC 0.320 (p=0.980) | top: fisetin, mepacrine, clofibrate, AG-012559, 10-methoxyharmalan, cephaeline
+[rummageo | invivo_200] 198 perturbagens, calibration not possible (too few labeled drugs)
+[rummageo | dht_200] 198 perturbagens, calibration not possible (too few labeled drugs)
+saved results/02_summary.json

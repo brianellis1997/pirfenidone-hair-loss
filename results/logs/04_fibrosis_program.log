@@ -1,0 +1,31 @@
+
+bald_up:
+                              term        adj_p  n_genes
+Epithelial Mesenchymal Transition 1.647422e-22       28
+                      Coagulation 2.307402e-09       14
+        Interferon Gamma Response 2.335520e-08       15
+                   UV Response Dn 1.521296e-04        9
+                       Complement 2.364398e-04       10
+              Allograft Rejection 2.364398e-04       10
+
+bald_down:
+                              term        adj_p  n_genes
+Epithelial Mesenchymal Transition 7.690127e-08       15
+           Estrogen Response Late 1.276196e-05       12
+                      p53 Pathway 1.276196e-05       12
+    TNF-alpha Signaling via NF-kB 3.892607e-04       10
+                   UV Response Up 1.515622e-03        8
+               TGF-beta Signaling 1.515622e-03        5
+
+aga_genetics:
+                       term    adj_p  n_genes
+            UV Response Dn 0.116765        5
+        TGF-beta Signaling 0.116765        3
+               p53 Pathway 0.165244        5
+Wnt-beta Catenin Signaling 0.211717        2
+      IL-2/STAT5 Signaling 0.211717        4
+   Estrogen Response Early 0.211717        4
+
+composition check GSE90594: {'fibrosis': {'genes': 21, 'sig_raw': 16, 'sig_adjusted': 15, 'median_effect_kept': 0.897349877592681}, 'immune': {'genes': 11, 'sig_raw': 7, 'sig_adjusted': 6, 'median_effect_kept': 0.7509231993249891}}
+follicle score: hair loss -0.42 vs healthy +0.42
+saved results/04_summary.json

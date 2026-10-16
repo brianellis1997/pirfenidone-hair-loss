@@ -1,0 +1,39 @@
+signal per study (genes tested, genes p<.05, share):
+   GSE36169 bald vs haired, 5 paired men              6153    932   15%
+   GSE90594 AGA vs healthy, 14 vs 14                 24060   5088   21%
+   GSE78722 front+crown vs back, 6 men               24061   1463    6%
+   GSE267664 DHT organ culture, 3 vs 3               15046     15    0%
+   GSE178374 DHT on balding DP cells 2D              11326   6173   55%
+   GSE178374 DHT on balding DP cells 3D              11326   4229   37%
+   GSE66664 DHT time course, balding cells           14518   2708   19%
+   GSE184501 balding vs non-balding DP cells on DHT  13934   4241   30%
+
+agreement: {
+ "GSE36169 vs GSE90594": {
+  "shared": 5879,
+  "rho_sig_either": 0.717284444689607,
+  "both_sig": 415,
+  "same_direction": 406
+ },
+ "GSE36169 vs GSE78722": {
+  "shared": 3886,
+  "rho_sig_either": -0.2422334905602973,
+  "both_sig": 66,
+  "same_direction": 15
+ },
+ "GSE90594 vs GSE78722": {
+  "shared": 16244,
+  "rho_sig_either": 0.010744302179089461,
+  "both_sig": 270,
+  "same_direction": 159
+ },
+ "GSE178374 2D vs GSE66664 balding": {
+  "rho": -0.1875036402235861
+ },
+ "GSE178374 3D vs GSE66664 balding": {
+  "rho": 0.0005214524799563913
+ }
+}
+
+in-vivo bald signature vs DHT responses (rho): {'lfc_2d': -0.1462826198523588, 'lfc_3d': -0.08037742333444747, 'resp_bab': 0.028663166604595502, 'resp_diff': 0.026428765808305693}
+saved results/01_summary.json

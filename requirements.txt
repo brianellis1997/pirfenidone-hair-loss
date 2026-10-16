@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.0
+statsmodels==0.15.0
+matplotlib==3.10.9
+pysam==0.24.1
+nbformat==5.10.4
+nbconvert==7.17.1
+ipykernel==7.2.0
+ipython==9.14.0

@@ -1,0 +1,257 @@
+{
+ "models": {
+  "reviewers": [
+   "meta-llama/llama-3.3-70b-instruct",
+   "deepseek/deepseek-chat-v3.1"
+  ],
+  "adjudicator": "google/gemini-2.5-flash",
+  "shadow": "openai/gpt-4o-mini"
+ },
+ "pubmed_frozen_on": "2026-10-04",
+ "reliability": {
+  "pairs_screened": 487,
+  "abstracts": 423,
+  "missing_abstracts": 2,
+  "reviewer_agreement": 0.8336755646817249,
+  "cohen_kappa_stance": 0.6739135825941756,
+  "cohen_kappa_relevant": 0.6823609214794459,
+  "adjudicated": 93,
+  "three_way_split": 5,
+  "quotes_found_verbatim": 0.9508547008547008,
+  "quotes_checked": 468,
+  "quotes_found_by_model": {
+   "meta-llama/llama-3.3-70b-instruct": 0.896551724137931,
+   "deepseek/deepseek-chat-v3.1": 0.9780701754385965,
+   "google/gemini-2.5-flash": 1.0
+  },
+  "invalid_replies": 0,
+  "shadow_agreement_with_final": 0.7885010266940452,
+  "shadow_kappa_vs_final": 0.6217176211520189
+ },
+ "grades": {
+  "C1 scarring in bald scalp": {
+   "grade": "Strong",
+   "supporting_primary": 4,
+   "supporting_human": 2,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 6,
+   "relevant": 12,
+   "screened": 60,
+   "pubmed_hits": 202
+  },
+  "C2 DHT raises TGF-beta": {
+   "grade": "Strong",
+   "supporting_primary": 22,
+   "supporting_human": 1,
+   "contradicting": 3,
+   "mixed": 0,
+   "supporting_reviews": 5,
+   "relevant": 30,
+   "screened": 60,
+   "pubmed_hits": 78
+  },
+  "C3 TGF-beta stops hair growth": {
+   "grade": "Strong",
+   "supporting_primary": 33,
+   "supporting_human": 12,
+   "contradicting": 3,
+   "mixed": 0,
+   "supporting_reviews": 6,
+   "relevant": 43,
+   "screened": 60,
+   "pubmed_hits": 198
+  },
+  "C4 pirfenidone is antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 8,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 8,
+   "screened": 60,
+   "pubmed_hits": 240
+  },
+  "C5 topical pirfenidone is tolerated": {
+   "grade": "Contested",
+   "supporting_primary": 4,
+   "supporting_human": 3,
+   "contradicting": 4,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 8,
+   "screened": 60,
+   "pubmed_hits": 60
+  },
+  "pirfenidone | antifibrotic in skin": {
+   "grade": "Strong",
+   "supporting_primary": 6,
+   "supporting_human": 2,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 6,
+   "screened": 40,
+   "pubmed_hits": 202
+  },
+  "pirfenidone | good for hair": {
+   "grade": "Weak",
+   "supporting_primary": 1,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 4,
+   "pubmed_hits": 4
+  },
+  "tranilast | antifibrotic in skin": {
+   "grade": "Strong",
+   "supporting_primary": 29,
+   "supporting_human": 8,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 2,
+   "relevant": 32,
+   "screened": 40,
+   "pubmed_hits": 51
+  },
+  "tranilast | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 0,
+   "screened": 1,
+   "pubmed_hits": 1
+  },
+  "telmisartan | antifibrotic in skin": {
+   "grade": "Weak",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 1,
+   "relevant": 1,
+   "screened": 3,
+   "pubmed_hits": 3
+  },
+  "telmisartan | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 0,
+   "screened": 4,
+   "pubmed_hits": 4
+  },
+  "losartan | antifibrotic in skin": {
+   "grade": "Strong",
+   "supporting_primary": 21,
+   "supporting_human": 4,
+   "contradicting": 0,
+   "mixed": 1,
+   "supporting_reviews": 2,
+   "relevant": 25,
+   "screened": 39,
+   "pubmed_hits": 63
+  },
+  "losartan | good for hair": {
+   "grade": "Weak",
+   "supporting_primary": 1,
+   "supporting_human": 1,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 2,
+   "screened": 2,
+   "pubmed_hits": 2
+  },
+  "nintedanib | antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 3,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 3,
+   "screened": 39,
+   "pubmed_hits": 250
+  },
+  "nintedanib | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 3,
+   "pubmed_hits": 3
+  },
+  "galunisertib | antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 7,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 8,
+   "screened": 11,
+   "pubmed_hits": 11
+  },
+  "galunisertib | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 1,
+   "pubmed_hits": 1
+  }
+ },
+ "audit": {
+  "n": 60,
+  "n_clear": 43,
+  "accuracy": {
+   "pipeline": {
+    "agree_stratum": 0.8,
+    "disagree_stratum": 0.7,
+    "clear_items_only": 0.813953488372093,
+    "population_weighted": 0.7832535885167464
+   },
+   "meta-llama/llama-3.3-70b-instruct": {
+    "agree_stratum": 0.8,
+    "disagree_stratum": 0.7666666666666667,
+    "clear_items_only": 0.813953488372093,
+    "population_weighted": 0.7944178628389155
+   },
+   "deepseek/deepseek-chat-v3.1": {
+    "agree_stratum": 0.8,
+    "disagree_stratum": 0.2,
+    "clear_items_only": 0.5581395348837209,
+    "population_weighted": 0.6995215311004784
+   },
+   "openai/gpt-4o-mini (shadow, no vote)": {
+    "agree_stratum": 0.8,
+    "disagree_stratum": 0.26666666666666666,
+    "clear_items_only": 0.6046511627906976,
+    "population_weighted": 0.7106858054226475
+   },
+   "v1 vs v2 on audit pairs both versions labeled": {
+    "n": 8,
+    "v1": 0.5,
+    "v2": 0.875
+   }
+  },
+  "adjudicator_accuracy_on_items_it_saw": 0.7096774193548387,
+  "auditor": "Claude Opus 5.5, reading each abstract blind to the model labels"
+ }
+}

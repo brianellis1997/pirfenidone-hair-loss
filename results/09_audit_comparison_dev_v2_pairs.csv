@@ -1,0 +1,61 @@
+audit_id,claim_id,pmid,audit_stance,final,A_stance,B_stance,C_stance,S_stance,resolution,pipeline_error,audit_confidence,note
+28,C1 scarring in bald scalp,34934295,none,contradicts,contradicts,none,contradicts,none,majority,contradicts (audit: none),clear,"trichoscopy of female AGA; 'non scarring' is a clinical label, not a fibrosis finding"
+49,C1 scarring in bald scalp,12673073,none,supports,supports,none,supports,supports,majority,supports (audit: none),ambiguous,smoking review speculates micro-inflammation and fibrosis as a mechanism; not an AGA finding
+53,C1 scarring in bald scalp,26936689,none,none,none,none,,none,agree,,clear,flavonoids on endothelial cells
+54,C1 scarring in bald scalp,33204138,none,none,none,none,,none,agree,,clear,"perifollicular inflammation, no fibrosis claim"
+78,C2 DHT raises TGF-beta,28403520,none,contradicts,none,contradicts,contradicts,contradicts,majority,contradicts (audit: none),ambiguous,BMP/TGF-beta pathway genes lower in AGA scalp; no androgen test
+93,C2 DHT raises TGF-beta,38048982,none,supports,none,supports,supports,supports,majority,supports (audit: none),ambiguous,compounds 'regulated' TGF-beta1 secretion; DHT effect on TGF-beta1 not stated
+95,C2 DHT raises TGF-beta,42237333,supports,supports,supports,supports,,supports,agree,,clear,DHT organ model shows elevated TGF-beta1
+98,C2 DHT raises TGF-beta,27472703,none,none,none,supports,none,supports,majority,,ambiguous,balding vs non-balding follicles: TGF-beta1 higher; androgens not manipulated
+103,C2 DHT raises TGF-beta,33183906,none,supports,supports,supports,,supports,agree,supports (audit: none),clear,"miRNA study; Alk5i helps hair, nothing on androgens raising TGF-beta"
+111,C2 DHT raises TGF-beta,33911641,none,contradicts,contradicts,supports,contradicts,contradicts,majority,contradicts (audit: none),clear,5-alpha-reductase inhibitor lowers TGF-beta1; androgen effect not shown
+118,C2 DHT raises TGF-beta,39085137,none,unresolved,contradicts,supports,none,contradicts,three-way split,unresolved (audit: none),clear,glycyrrhetinic acid lowers TGF-beta1; androgen effect not shown
+153,C3 TGF-beta stops hair growth,19158839,none,supports,none,supports,supports,supports,majority,supports (audit: none),clear,UV on follicles; TGF-beta2 localization shift only
+155,C3 TGF-beta stops hair growth,22846721,none,none,none,none,,none,agree,,clear,CD109 knockout hair defect not via TGF-beta (pSmad2 unchanged)
+182,C4 pirfenidone is antifibrotic in skin,37772985,none,none,none,none,,none,agree,,clear,SSc-ILD lung guideline
+197,C4 pirfenidone is antifibrotic in skin,30008572,none,none,none,none,,none,agree,,clear,IPF tablet profile
+200,C4 pirfenidone is antifibrotic in skin,15372410,none,none,none,none,,none,agree,,clear,renal fibrosis review
+204,C4 pirfenidone is antifibrotic in skin,16210133,none,none,none,none,,supports,agree,,clear,"airway allograft fibrosis, not skin"
+208,C4 pirfenidone is antifibrotic in skin,34440057,supports,supports,supports,supports,,supports,agree,,clear,local pirfenidone implant reduced peri-implant fibrosis in rabbit ear skin
+215,C4 pirfenidone is antifibrotic in skin,21866212,none,none,none,none,,none,agree,,clear,ocular pharmacokinetics
+219,C4 pirfenidone is antifibrotic in skin,27005406,none,none,none,none,,none,agree,,clear,oral pirfenidone phototoxicity case
+221,C4 pirfenidone is antifibrotic in skin,33006045,supports,supports,supports,supports,,supports,agree,,clear,pirfenidone gel cut TGF-beta1-induced alpha-SMA >2-fold in human dermal fibroblasts
+223,C4 pirfenidone is antifibrotic in skin,32405508,supports,supports,supports,supports,,supports,agree,,clear,pirfenidone blocked TGF-beta1-induced EMT genes and fibronectin in keloid keratinocytes
+238,C4 pirfenidone is antifibrotic in skin,29747274,none,none,none,none,,none,agree,,clear,IPF real-world lung function
+246,C5 topical pirfenidone is tolerated,40843770,none,supports,supports,supports,,supports,agree,supports (audit: none),ambiguous,review says topical works for scars; no tolerability statement
+247,C5 topical pirfenidone is tolerated,29790019,supports,supports,supports,supports,,supports,agree,,ambiguous,"topical ointment had no adverse effect on re-epithelialization in mice; animal, not human skin"
+258,C5 topical pirfenidone is tolerated,30972185,none,supports,none,supports,supports,supports,majority,supports (audit: none),clear,epidural scar fibroblasts; not skin tolerability
+263,C5 topical pirfenidone is tolerated,37049691,supports,supports,none,supports,supports,supports,majority,,ambiguous,topical pirfenidone in mice without inflammatory skin lesions; animal
+266,C5 topical pirfenidone is tolerated,27478849,none,none,none,supports,none,supports,majority,,ambiguous,"topical pirfenidone ulcer RCT reports efficacy only, no safety statement"
+277,C5 topical pirfenidone is tolerated,41017606,none,none,none,none,,contradicts,agree,,clear,"oral pirfenidone phototoxicity case, not topical"
+279,C5 topical pirfenidone is tolerated,21659848,supports,supports,supports,supports,,supports,agree,,clear,"8% gel for 6 months in 33 children: no serious adverse effects, 'effective and safe'"
+280,C5 topical pirfenidone is tolerated,30115530,none,supports,supports,supports,,supports,agree,supports (audit: none),ambiguous,topical pirfenidone on graft donor sites; efficacy only
+286,C5 topical pirfenidone is tolerated,32147675,none,none,none,supports,none,supports,majority,,ambiguous,spray dressing in burn model; no tolerability statement
+287,C5 topical pirfenidone is tolerated,34655088,none,none,none,none,,contradicts,agree,,clear,"photosensitivity from oral pirfenidone, not topical"
+297,C5 topical pirfenidone is tolerated,40093782,none,none,none,none,,none,agree,,ambiguous,scar drug review; generic 'known safety profile' for the class
+303,pirfenidone | antifibrotic in skin,25362769,none,none,none,none,,none,agree,,clear,IPF review
+314,pirfenidone | antifibrotic in skin,23419534,none,none,none,none,,none,agree,,clear,photosafety of oral pirfenidone
+317,pirfenidone | antifibrotic in skin,34178520,none,none,none,none,,none,agree,,clear,photosensitive rash case
+331,pirfenidone | antifibrotic in skin,34717762,none,none,none,none,,none,agree,,clear,IPF meta-analysis
+337,pirfenidone | antifibrotic in skin,42316168,none,none,none,none,,none,agree,,clear,antifibrotic persistence claims data
+339,pirfenidone | antifibrotic in skin,30008572,none,none,none,none,,none,agree,,clear,IPF tablet profile
+348,tranilast | antifibrotic in skin,35410697,none,none,none,none,,none,agree,,clear,"tranilast in smoke lung injury, not skin"
+353,tranilast | antifibrotic in skin,30140625,none,none,none,supports,none,supports,majority,,ambiguous,"tranilast in corneal fibroblasts, not dermal"
+359,tranilast | antifibrotic in skin,11781498,none,none,none,none,,supports,agree,,ambiguous,"tranilast lowers TGF-beta1 secretion in conjunctival cells, not skin"
+360,tranilast | antifibrotic in skin,17724448,none,none,none,none,,none,agree,,ambiguous,TGF-beta review lists tranilast as a nonspecific inhibitor; not skin
+363,tranilast | antifibrotic in skin,34663163,none,none,none,none,,none,agree,,clear,cardiac fibroblasts
+364,tranilast | antifibrotic in skin,15097242,none,none,none,none,,none,agree,,clear,myocardial fibrosis
+369,tranilast | antifibrotic in skin,10459620,none,none,none,none,,none,agree,,clear,"proliferative vitreoretinopathy, eye"
+372,tranilast | antifibrotic in skin,14694265,none,none,none,none,,supports,agree,,clear,"diabetic nephropathy, kidney"
+384,tranilast | good for hair,22940757,none,none,none,contradicts,none,none,majority,,clear,eosinophilic folliculitis responded to tranilast; nothing on hair growth
+389,telmisartan | good for hair,34884516,none,none,none,none,,none,agree,,clear,"cochlear hair cells, not hair"
+393,losartan | antifibrotic in skin,11790173,none,none,none,none,,none,agree,,clear,scleroderma review lists losartan as a vasodilator
+398,losartan | antifibrotic in skin,9797194,none,none,none,supports,none,supports,majority,,clear,losartan blocks AngII calcium signaling in skin fibroblasts; no fibrosis readout
+403,losartan | antifibrotic in skin,29078982,none,none,none,none,,supports,agree,,ambiguous,valsartan gel increased collagen and pSMAD in wounds; no losartan-specific result
+409,losartan | antifibrotic in skin,27128791,supports,supports,supports,supports,,supports,agree,,ambiguous,losartan lowered collagen density in a skin-implanted tumor chamber
+422,losartan | antifibrotic in skin,9104887,none,none,none,none,,none,agree,,clear,infarcted heart
+425,losartan | antifibrotic in skin,9766519,none,none,none,none,,supports,agree,,clear,heart fibroblasts
+446,nintedanib | antifibrotic in skin,33387612,none,none,none,none,,none,agree,,clear,nintedanib in lung ILD
+453,nintedanib | antifibrotic in skin,35897764,none,none,none,none,,none,agree,,clear,lung EndoMT
+472,nintedanib | good for hair,34062484,none,none,contradicts,none,none,contradicts,majority,,clear,"sarcoma trial; alopecia listed for the ifosfamide arm, not nintedanib"
+483,galunisertib | antifibrotic in skin,34882985,supports,supports,supports,none,supports,supports,majority,,ambiguous,galunisertib added antifibrotic effect in murine dermal fibrosis (combination)

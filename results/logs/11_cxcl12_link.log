@@ -1,0 +1,20 @@
+bald scalp (g = GSE36169 paired, m = GSE90594):
+          lfc_g     p_g   lfc_m     p_m       z  z_rank_pct
+CXCL12  0.7628  0.0592  0.5783  0.0000  4.2603     98.9971
+ACKR3      NaN     NaN     NaN     NaN     NaN         NaN
+CXCR4   0.3142  0.1764  0.0471  0.7695  1.1631     54.6582
+
+fibroblasts (lfc = log2 change):
+         tgfb_lfc  tgfb_p  pirf_1mM_lfc  pirf_1mM_p  pirf_0p1mM_lfc  pirf_0p1mM_p  nint_lfc  nint_p
+CXCL12   -1.3335     0.0       -1.9156      0.0004         -0.0006         0.988    0.8296  0.2205
+ACKR3        NaN     NaN           NaN         NaN             NaN           NaN       NaN     NaN
+CXCR4        NaN     NaN           NaN         NaN             NaN           NaN       NaN     NaN
+
+atlas, CXCL12 top clusters: D.Fib_2 4.41, D.Fib_4 4.21, D.Fib_1 3.89, D.Sheath 2.76, Pericytes 2.62
+
+atlas, ACKR3 top clusters: Lymph.Endo_1 2.14, D.Fib_4 2.06, Vas.Endo_1 1.62, D.Fib_5 1.56, Muscle 1.44
+
+atlas, CXCR4 top clusters: CD4.Tc_1 4.79, CD8_Tc_1 4.73, CD4.Tc_2 4.32, NK 4.23, Treg 3.76
+
+share of summed pseudobulk expression in dermal fibroblast, sheath and papilla clusters (7 of 41): {'CXCL12': 0.83, 'ACKR3': 0.46, 'CXCR4': 0.01}
+saved results/11_summary.json

@@ -1,0 +1,7 @@
+bald-up genes that TGF-beta induces: 23/141 vs background 7.7%; OR 2.48, p 3.5e-04
+TGF-beta-driven bald genes: ABCA1, AEBP1, CALCOCO2, COL1A1, COL1A2, COL3A1, COL5A1, COL6A3, CSRP2, FBLN5, FSTL1, HERPUD1, LOX, MFAP4, MMP2, OLFML3, P4HA1, PDGFRB, PTGS1, SPARC, SSR2, TGFBI, TIMP1
+pirfenidone_GSE178518        bald-vs-drug rho +0.050 (p 1.6e-01) | TGF-beta-driven bald genes lowered 4%, median +0.02
+nintedanib_GSE178518         bald-vs-drug rho +0.028 (p 4.3e-01) | TGF-beta-driven bald genes lowered 9%, median -0.34
+saracatinib_GSE178518        bald-vs-drug rho -0.017 (p 6.3e-01) | TGF-beta-driven bald genes lowered 9%, median -0.55
+pirfenidone_1mM_GSE226249    bald-vs-drug rho -0.157 (p 3.9e-06) | TGF-beta-driven bald genes lowered 48%, median -0.26
+saved results/05_summary.json

@@ -1,0 +1,101 @@
+{
+ "associated_targets": 1039,
+ "genetic_ge_0.5": 142,
+ "genetic_ge_0.7": 36,
+ "with_any_drug": 12,
+ "with_approved_drug": 5,
+ "approved_drug_targets": [
+  {
+   "symbol": "HDAC9",
+   "approved_drugs": "BELINOSTAT;ENTINOSTAT;GIVINOSTAT;GIVINOSTAT HYDROCHLORIDE;PANOBINOSTAT;PANOBINOSTAT LACTATE;ROMIDEPSIN"
+  },
+  {
+   "symbol": "BCL2",
+   "approved_drugs": "NAVITOCLAX;OBLIMERSEN;VENETOCLAX"
+  },
+  {
+   "symbol": "AR",
+   "approved_drugs": "ABIRATERONE;APALUTAMIDE;BICALUTAMIDE;CLASCOTERONE;DANAZOL;DAROLUTAMIDE;ENZALUTAMIDE;ETHYLESTRENOL;FLUOXYMESTERONE;FLUTAMIDE;METHYLTESTOSTERONE;NILUTAMIDE;OXANDROLONE;OXYMETHOLONE;STANOZOLOL;TESTOSTERONE CYPIONATE;TESTOSTERONE ENANTHATE;TESTOSTERONE UNDECANOATE"
+  },
+  {
+   "symbol": "SRD5A2",
+   "approved_drugs": "ABIRATERONE;DUTASTERIDE;FINASTERIDE"
+  },
+  {
+   "symbol": "TGFB1",
+   "approved_drugs": "LUSPATERCEPT"
+  }
+ ],
+ "fibrosis_gene_genetics": {
+  "TGFB1": {
+   "genetic": 0.51,
+   "literature": 0.1,
+   "overall": 0.31
+  },
+  "TGFB2": {
+   "genetic": 0.06,
+   "literature": 0.04,
+   "overall": 0.04
+  },
+  "TGFBR1": {
+   "genetic": 0.0,
+   "literature": 0.01,
+   "overall": 0.0
+  },
+  "TGFBR2": {
+   "genetic": 0.38,
+   "literature": 0.0,
+   "overall": 0.23
+  },
+  "TWIST1": {
+   "genetic": 0.85,
+   "literature": 0.0,
+   "overall": 0.52
+  },
+  "TWIST2": {
+   "genetic": 0.81,
+   "literature": 0.0,
+   "overall": 0.49
+  },
+  "PDGFA": {
+   "genetic": 0.78,
+   "literature": 0.0,
+   "overall": 0.47
+  },
+  "PDGFRB": {
+   "genetic": 0.0,
+   "literature": 0.0,
+   "overall": 0.0
+  },
+  "AGTR1": {
+   "genetic": 0.11,
+   "literature": 0.0,
+   "overall": 0.06
+  },
+  "ACE": {
+   "genetic": 0.0,
+   "literature": 0.06,
+   "overall": 0.01
+  },
+  "SMAD3": {
+   "genetic": 0.0,
+   "literature": 0.0,
+   "overall": 0.0
+  },
+  "COL1A1": {
+   "genetic": 0.0,
+   "literature": 0.0,
+   "overall": 0.0
+  },
+  "LOX": {
+   "genetic": 0.0,
+   "literature": 0.0,
+   "overall": 0.0
+  },
+  "SPARC": {
+   "genetic": 0.0,
+   "literature": 0.0,
+   "overall": 0.0
+  }
+ }
+}

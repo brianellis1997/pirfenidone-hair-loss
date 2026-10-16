@@ -1,0 +1,143 @@
+symbol,genetic,name,n_drugs,approved_drugs,sm_tractable,ab_tractable
+FGF5,0.858,fibroblast growth factor 5,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+EBF1,0.857,EBF transcription factor 1,0,,Structure with Ligand,
+RUNX1,0.854,RUNX family transcription factor 1,0,,High-Quality Ligand;High-Quality Pocket,
+TWIST1,0.853,twist family bHLH transcription factor 1,0,,,
+MRPS22,0.832,mitochondrial ribosomal protein S22,0,,Structure with Ligand,
+WNT10A,0.824,Wnt family member 10A,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+TBX15,0.812,T-box transcription factor 15,0,,,
+PRDM6,0.811,PR/SET domain 6,0,,,
+TWIST2,0.81,twist family bHLH transcription factor 2,0,,,
+PAX3,0.804,paired box 3,0,,,
+RSPO2,0.8,R-spondin 2,0,,Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+AUTS2,0.798,activator of transcription and developmental regulator AUTS2,0,,,
+CIROZ,0.793,ciliated left-right organizer protein containing ZP-N domains,0,,,
+PBX1,0.783,PBX homeobox 1,0,,,
+FMN1,0.78,formin 1,0,,,GO CC med conf;UniProt loc med conf
+SLC14A2,0.779,solute carrier family 14 member 2,0,,Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+PDGFA,0.779,platelet derived growth factor subunit A,0,,High-Quality Pocket,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+HDAC9,0.766,histone deacetylase 9,12,BELINOSTAT;ENTINOSTAT;GIVINOSTAT;GIVINOSTAT HYDROCHLORIDE;PANOBINOSTAT;PANOBINOSTAT LACTATE;ROMIDEPSIN,Approved Drug;Druggable Family;High-Quality Ligand,
+DKK2,0.757,dickkopf Wnt signaling pathway inhibitor 2,0,,,GO CC med conf;UniProt SigP or TMHMM;UniProt loc med conf
+LRMDA,0.745,leucine rich melanocyte differentiation associated,0,,,
+SPAG17,0.744,sperm associated antigen 17,0,,,GO CC med conf
+RREB1,0.743,ras responsive element binding protein 1,0,,,
+IRF4,0.742,interferon regulatory factor 4,0,,,
+GLIS1,0.737,GLIS family zinc finger 1,0,,,
+EYA4,0.737,EYA transcriptional coactivator and phosphatase 4,0,,,
+MPDZ,0.73,multiple PDZ domain crumbs cell polarity complex component,0,,High-Quality Pocket,GO CC med conf;UniProt loc med conf
+COMMD7,0.728,COMM domain containing 7,0,,,
+EPC1,0.717,enhancer of polycomb 1,0,,Structure with Ligand,
+FAM53B,0.716,family with sequence similarity 53 member B,0,,,
+BCL2,0.715,BCL2 apoptosis regulator,7,NAVITOCLAX;OBLIMERSEN;VENETOCLAX,Approved Drug;Druggable Family;High-Quality Ligand;Structure with Ligand,UniProt SigP or TMHMM
+TCHH,0.714,trichohyalin,0,,,GO CC high conf
+KLF15,0.712,KLF transcription factor 15,0,,,
+LAMC3,0.711,laminin subunit gamma 3,1,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+GLI2,0.708,GLI family zinc finger 2,0,,Druggable Family,
+IQGAP1,0.707,IQ motif containing GTPase activating protein 1,0,,High-Quality Pocket,GO CC high conf;Human Protein Atlas loc;UniProt loc high conf;UniProt loc med conf
+TRPS1,0.705,transcriptional repressor GATA binding 1,0,,,
+ZNF462,0.699,zinc finger protein 462,0,,,
+WARS2,0.695,"tryptophanyl tRNA synthetase 2, mitochondrial",0,,Structure with Ligand,GO CC high conf
+PAX1,0.693,paired box 1,0,,,
+CASZ1,0.692,castor zinc finger 1,0,,,
+DYNLRB2,0.691,dynein light chain roadblock-type 2,0,,Structure with Ligand,
+AR,0.69,androgen receptor,40,ABIRATERONE;APALUTAMIDE;BICALUTAMIDE;CLASCOTERONE;DANAZOL;DAROLUTAMIDE;ENZALUTAMIDE;ETHYLESTRENOL;FLUOXYMESTERONE;FLUTAMIDE;METHYLTESTOSTERONE;NILUTAMIDE;OXANDROLONE;OXYMETHOLONE;STANOZOLOL;TESTOSTERONE CYPIONATE;TESTOSTERONE ENANTHATE;TESTOSTERONE UNDECANOATE,Approved Drug;Druggable Family;High-Quality Ligand;High-Quality Pocket;Structure with Ligand,GO CC med conf
+HMGB1,0.68,high mobility group box 1,1,,High-Quality Ligand,GO CC high conf;UniProt loc high conf
+SIM1,0.678,SIM bHLH transcription factor 1,0,,,
+TCF4,0.675,transcription factor 4,0,,High-Quality Ligand,
+MAF,0.673,MAF bZIP transcription factor,0,,,
+MYOCD,0.672,myocardin,0,,,
+PTHLH,0.672,parathyroid hormone like hormone,1,,Structure with Ligand,Advanced Clinical;GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+SRD5A2,0.671,steroid 5 alpha-reductase 2,3,ABIRATERONE;DUTASTERIDE;FINASTERIDE,Approved Drug;Druggable Family;High-Quality Ligand;Structure with Ligand,UniProt SigP or TMHMM
+RUNX3,0.671,RUNX family transcription factor 3,0,,,
+TLE4,0.665,"TLE family member 4, transcriptional corepressor",0,,,
+ZHX3,0.662,zinc fingers and homeoboxes 3,0,,Med-Quality Pocket,
+SH3PXD2B,0.658,SH3 and PX domains 2B,0,,,Human Protein Atlas loc
+ZFP36L1,0.652,ZFP36 like 1 zinc finger CCCH-type,0,,,
+RORB,0.651,RAR related orphan receptor B,0,,Druggable Family;High-Quality Ligand,
+PAM,0.648,peptidylglycine alpha-amidating monooxygenase,0,,Druggable Family;High-Quality Ligand,GO CC med conf;UniProt SigP or TMHMM;UniProt loc med conf
+CENPW,0.648,centromere protein W,0,,,
+CMPK2,0.647,cytidine/uridine monophosphate kinase 2,0,,,
+CEP112,0.647,centrosomal protein 112,0,,,GO CC med conf
+MEMO1,0.646,mediator of cell motility 1,0,,,
+CFAP299,0.645,cilia and flagella associated protein 299,0,,Structure with Ligand,Human Protein Atlas loc
+ZC3H11A,0.643,zinc finger CCCH-type containing 11A,0,,,
+CDC50B,0.639,cell division cycle 50 P4-ATPase accessory subunit B,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+VGLL4,0.637,vestigial like family member 4,0,,,
+ZBTB38,0.632,zinc finger and BTB domain containing 38,0,,,
+ALX4,0.625,ALX homeobox 4,0,,,
+LRP6,0.623,LDL receptor related protein 6,0,,High-Quality Ligand;High-Quality Pocket;Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+HOXD8,0.621,homeobox D8,0,,,
+FARSB,0.62,phenylalanyl-tRNA synthetase subunit beta,0,,High-Quality Ligand;Structure with Ligand,
+IRX5,0.617,iroquois homeobox 5,0,,,
+ZBTB20,0.615,zinc finger and BTB domain containing 20,0,,,
+SSPN,0.613,sarcospan,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+APCDD1,0.612,APC down-regulated 1,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+EPB41L2,0.606,erythrocyte membrane protein band 4.1 like 2,0,,,GO CC high conf;Human Protein Atlas loc;UniProt loc high conf
+ZFHX4,0.606,zinc finger homeobox 4,0,,,
+PRDM1,0.604,PR/SET domain 1,0,,,
+SUCNR1,0.603,succinate receptor 1,0,,Druggable Family;High-Quality Ligand;Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+CDCA7,0.6,cell division cycle associated 7,0,,,
+BPIFB2,0.599,BPI fold containing family B member 2,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+GLIS3,0.596,GLIS family zinc finger 3,0,,,
+IGSF6,0.595,immunoglobulin superfamily member 6,0,,,GO CC high conf;UniProt SigP or TMHMM
+SHB,0.595,SH2 domain containing adaptor protein B,0,,,GO CC med conf;UniProt loc med conf
+EDAR,0.595,ectodysplasin A receptor,0,,,GO CC high conf;UniProt SigP or TMHMM
+PRR23A,0.593,proline rich 23A,0,,,
+FES,0.591,"FES proto-oncogene, tyrosine kinase",0,,Druggable Family;High-Quality Ligand;Med-Quality Pocket;Structure with Ligand,GO CC med conf;UniProt loc med conf
+KLF5,0.591,KLF transcription factor 5,0,,Druggable Family;High-Quality Ligand,
+RSPO3,0.59,R-spondin 3,1,,,Advanced Clinical;GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+FAR2,0.584,fatty acyl-CoA reductase 2,0,,,UniProt SigP or TMHMM
+PHLDA3,0.583,pleckstrin homology like domain family A member 3,0,,,GO CC high conf;UniProt loc high conf
+TMEM131L,0.583,transmembrane 131 like,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+TET2,0.582,tet methylcytosine dioxygenase 2,0,,High-Quality Ligand;Structure with Ligand,
+KDM7A,0.578,lysine demethylase 7A,0,,High-Quality Ligand;Structure with Ligand,
+SLC39A8,0.576,solute carrier family 39 member 8,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+LGR4,0.571,leucine rich repeat containing G protein-coupled receptor 4,1,,Druggable Family;Structure with Ligand,Advanced Clinical;GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+ZEB2,0.571,zinc finger E-box binding homeobox 2,0,,,GO CC high conf
+EIF3H,0.569,eukaryotic translation initiation factor 3 subunit H,0,,Structure with Ligand,
+CDC5L,0.568,cell division cycle 5 like,0,,Structure with Ligand,
+DPEP2,0.568,dipeptidase 2,0,,Druggable Family,GO CC med conf;UniProt SigP or TMHMM
+XRCC4,0.563,X-ray repair cross complementing 4,0,,High-Quality Pocket;Structure with Ligand,
+GORAB,0.56,"golgin, RAB6 interacting",0,,,
+FHL3,0.559,four and a half LIM domains 3,0,,,
+ATXN1,0.557,ataxin 1,0,,High-Quality Pocket,
+NECTIN3,0.556,nectin cell adhesion molecule 3,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf;UniProt loc med conf
+RORA,0.555,RAR related orphan receptor A,0,,Druggable Family;High-Quality Ligand;Med-Quality Pocket;Structure with Ligand,
+BMP4,0.551,bone morphogenetic protein 4,0,,Druggable Family,GO CC high conf;UniProt SigP or TMHMM;UniProt loc med conf
+HAS2,0.547,hyaluronan synthase 2,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+L3MBTL3,0.545,L3MBTL histone methyl-lysine binding protein 3,0,,High-Quality Ligand;Structure with Ligand,
+DLG5,0.544,discs large MAGUK scaffold protein 5,0,,,GO CC high conf;UniProt loc high conf
+MVB12B,0.544,multivesicular body subunit 12B,0,,,GO CC high conf;UniProt loc high conf
+SETBP1,0.543,SET binding protein 1,0,,,
+MBNL1,0.541,muscleblind like splicing regulator 1,0,,Druggable Family,
+HAND1,0.539,heart and neural crest derivatives expressed 1,0,,,
+TMEM74,0.53,transmembrane protein 74,0,,,GO CC med conf;UniProt SigP or TMHMM
+EFEMP1,0.53,EGF-like fibulin extracellular matrix protein 1,0,,,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+TNS3,0.528,tensin 3,0,,,
+PRRX1,0.527,paired related homeobox 1,0,,,
+MKLN1,0.525,muskelin 1,0,,,Human Protein Atlas loc
+TTC27,0.525,tetratricopeptide repeat domain 27,0,,,
+GIMD1,0.523,GIMAP family P-loop NTPase domain containing 1,0,,,
+TFAP2C,0.521,transcription factor AP-2 gamma,0,,,
+RPLP1,0.521,ribosomal protein lateral stalk subunit P1,5,,Approved Drug;High-Quality Ligand,
+IRX1,0.521,iroquois homeobox 1,0,,,
+KIAA2012,0.519,KIAA2012,0,,,
+NCOR2,0.519,nuclear receptor corepressor 2,0,,Druggable Family;High-Quality Ligand;Structure with Ligand,
+ZNF521,0.516,zinc finger protein 521,0,,,
+SLC35B3,0.516,solute carrier family 35 member B3,0,,,UniProt SigP or TMHMM
+PEX14,0.514,peroxisomal biogenesis factor 14,0,,,UniProt SigP or TMHMM
+SMG6,0.513,SMG6 nonsense mediated mRNA decay factor,0,,Med-Quality Pocket,GO CC high conf
+DENND2A,0.513,DENN domain containing 2A,0,,,
+FAF1,0.512,Fas associated factor 1,0,,Structure with Ligand,
+ZBED6,0.51,zinc finger BED-type containing 6,0,,,
+DNMT3B,0.51,DNA methyltransferase 3 beta,0,,Druggable Family;High-Quality Ligand;Structure with Ligand,
+PLA2G15,0.509,phospholipase A2 group XV,0,,Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+OXR1,0.508,oxidation resistance 1,0,,,
+TGFB1,0.507,transforming growth factor beta 1,5,LUSPATERCEPT,Druggable Family;Med-Quality Pocket;Structure with Ligand,Advanced Clinical;GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+BBX,0.505,BBX high mobility group box domain containing,0,,,
+ZNRF3,0.504,zinc and ring finger 3,0,,Structure with Ligand,GO CC high conf;UniProt SigP or TMHMM;UniProt loc high conf
+EIF3E,0.504,eukaryotic translation initiation factor 3 subunit E,0,,Structure with Ligand,
+CTNNB1,0.501,catenin beta 1,1,,Druggable Family;High-Quality Ligand;Structure with Ligand,GO CC high conf;Human Protein Atlas loc;UniProt loc high conf
+HOXD4,0.501,homeobox D4,0,,,
+RUNX2,0.5,RUNX family transcription factor 2,0,,Structure with Ligand,
+LNX1,0.5,ligand of numb-protein X 1,0,,,

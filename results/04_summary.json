@@ -1,0 +1,119 @@
+{
+ "hallmark_top": {
+  "bald_up": [
+   {
+    "term": "Epithelial Mesenchymal Transition",
+    "adj_p": 1.6474221145124308e-22,
+    "n_genes": 28
+   },
+   {
+    "term": "Coagulation",
+    "adj_p": 2.3074017126887035e-09,
+    "n_genes": 14
+   },
+   {
+    "term": "Interferon Gamma Response",
+    "adj_p": 2.335519989962866e-08,
+    "n_genes": 15
+   },
+   {
+    "term": "UV Response Dn",
+    "adj_p": 0.00015212955731415425,
+    "n_genes": 9
+   },
+   {
+    "term": "Complement",
+    "adj_p": 0.00023643982274789593,
+    "n_genes": 10
+   },
+   {
+    "term": "Allograft Rejection",
+    "adj_p": 0.00023643982274789593,
+    "n_genes": 10
+   }
+  ],
+  "bald_down": [
+   {
+    "term": "Epithelial Mesenchymal Transition",
+    "adj_p": 7.690126796219193e-08,
+    "n_genes": 15
+   },
+   {
+    "term": "Estrogen Response Late",
+    "adj_p": 1.2761955134159537e-05,
+    "n_genes": 12
+   },
+   {
+    "term": "p53 Pathway",
+    "adj_p": 1.2761955134159537e-05,
+    "n_genes": 12
+   },
+   {
+    "term": "TNF-alpha Signaling via NF-kB",
+    "adj_p": 0.0003892606837922677,
+    "n_genes": 10
+   },
+   {
+    "term": "UV Response Up",
+    "adj_p": 0.001515621583214409,
+    "n_genes": 8
+   },
+   {
+    "term": "TGF-beta Signaling",
+    "adj_p": 0.001515621583214409,
+    "n_genes": 5
+   }
+  ],
+  "aga_genetics": [
+   {
+    "term": "UV Response Dn",
+    "adj_p": 0.1167652725468152,
+    "n_genes": 5
+   },
+   {
+    "term": "TGF-beta Signaling",
+    "adj_p": 0.1167652725468152,
+    "n_genes": 3
+   },
+   {
+    "term": "p53 Pathway",
+    "adj_p": 0.16524439517600817,
+    "n_genes": 5
+   },
+   {
+    "term": "Wnt-beta Catenin Signaling",
+    "adj_p": 0.21171691382936061,
+    "n_genes": 2
+   },
+   {
+    "term": "IL-2/STAT5 Signaling",
+    "adj_p": 0.21171691382936061,
+    "n_genes": 4
+   },
+   {
+    "term": "Estrogen Response Early",
+    "adj_p": 0.21171691382936061,
+    "n_genes": 4
+   }
+  ]
+ },
+ "composition_GSE90594": {
+  "fibrosis": {
+   "genes": 21,
+   "sig_raw": 16,
+   "sig_adjusted": 15,
+   "median_effect_kept": 0.897349877592681
+  },
+  "immune": {
+   "genes": 11,
+   "sig_raw": 7,
+   "sig_adjusted": 6,
+   "median_effect_kept": 0.7509231993249891
+  }
+ },
+ "follicle_score_means": {
+  "hair_loss": -0.4186383239444689,
+  "healthy": 0.4186383239444675
+ },
+ "note_GSE36169": "all 5 men lost follicle content almost equally (-1.5 to -2.1 SD), so adjustment is collinear and uninformative there"
+}

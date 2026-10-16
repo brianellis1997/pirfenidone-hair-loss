@@ -1,0 +1,59 @@
+PubMed C1 scarring in bald scalp: 202 hits, kept 25
+PubMed C2 DHT raises TGF-beta: 78 hits, kept 25
+PubMed C3 TGF-beta stops hair growth: 198 hits, kept 25
+PubMed C4 pirfenidone is antifibrotic in skin: 609 hits, kept 25
+PubMed C5 topical pirfenidone is tolerated: 60 hits, kept 25
+PubMed pirfenidone | antifibrotic in skin: 566 hits, kept 20
+PubMed pirfenidone | good for hair: 4 hits, kept 4
+PubMed tranilast | antifibrotic in skin: 86 hits, kept 20
+PubMed tranilast | good for hair: 1 hits, kept 1
+PubMed telmisartan | antifibrotic in skin: 23 hits, kept 20
+PubMed telmisartan | good for hair: 4 hits, kept 4
+PubMed losartan | antifibrotic in skin: 226 hits, kept 19
+PubMed losartan | good for hair: 2 hits, kept 2
+PubMed nintedanib | antifibrotic in skin: 470 hits, kept 19
+PubMed nintedanib | good for hair: 3 hits, kept 3
+PubMed galunisertib | antifibrotic in skin: 24 hits, kept 20
+PubMed galunisertib | good for hair: 1 hits, kept 1
+PubMed set frozen on 2026-10-04
+
+agent reliability: {
+ "pairs_screened": 258,
+ "abstracts": 221,
+ "missing_abstracts": 2,
+ "reviewer_agreement": 0.8255813953488372,
+ "cohen_kappa_stance": 0.7000852470873912,
+ "cohen_kappa_relevant": 0.7544610992148466,
+ "adjudicated": 56,
+ "three_way_split": 3,
+ "quotes_found_verbatim": 0.9122257053291536,
+ "quotes_checked": 319,
+ "quotes_found_by_model": {
+  "openai/gpt-4o-mini": 0.9299363057324841,
+  "meta-llama/llama-3.3-70b-instruct": 0.872,
+  "google/gemini-2.5-flash": 0.972972972972973
+ },
+ "invalid_replies": 0
+}
+
+                              claim_id     grade  supporting_primary  supporting_human  contradicting  mixed  supporting_reviews  relevant  screened  pubmed_hits
+             C1 scarring in bald scalp      Weak                   0                 0              0      0                   2         3        25          202
+                C2 DHT raises TGF-beta Contested                   5                 0              3      0                   3        11        25           78
+         C3 TGF-beta stops hair growth Contested                   9                 2              5      0                   6        20        25          198
+C4 pirfenidone is antifibrotic in skin  Moderate                   3                 0              0      0                   1         4        25          609
+   C5 topical pirfenidone is tolerated  Moderate                   3                 2              1      0                   1         5        25           60
+    pirfenidone | antifibrotic in skin      Weak                   0                 0              0      0                   5         5        20          566
+           pirfenidone | good for hair      Weak                   1                 0              0      0                   0         1         4            4
+      tranilast | antifibrotic in skin    Strong                  16                 2              0      0                   2        18        20           86
+             tranilast | good for hair      None                   0                 0              0      0                   0         0         1            1
+    telmisartan | antifibrotic in skin  Moderate                  13                 0              1      0                   0        15        20           23
+           telmisartan | good for hair      None                   0                 0              1      0                   0         1         4            4
+       losartan | antifibrotic in skin  Moderate                  12                 0              0      0                   1        14        19          226
+              losartan | good for hair      Weak                   1                 1              1      0                   0         2         2            2
+     nintedanib | antifibrotic in skin      Weak                   0                 0              0      0                   2         2        19          470
+            nintedanib | good for hair      None                   0                 0              2      0                   0         2         3            3
+   galunisertib | antifibrotic in skin    Strong                  17                 1              0      0                   0        18        20           24
+          galunisertib | good for hair      None                   0                 0              1      0                   0         1         1            1
+
+blind audit sample written to results/09_audit_blind.csv; fill 09_audit_labels.csv (audit_id, audit_stance, audit_type, note)
+saved results/09_summary.json

@@ -1,0 +1,271 @@
+{
+ "design": "GSE189684, one man with AGA, one surgical follicle sample per site",
+ "sets": [
+  {
+   "gene_set": "TGF-beta-driven bald genes",
+   "genes": 23,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": 0.1054120450239214,
+   "null_mean": -0.11913151784712915,
+   "perm_p_two_sided": 0.0021,
+   "share_of_genes_up": 0.7391304347826086
+  },
+  {
+   "gene_set": "TGF-beta-driven bald genes",
+   "genes": 23,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": -0.5104327841953716,
+   "null_mean": -0.08384584661021934,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.0
+  },
+  {
+   "gene_set": "TGF-beta-driven bald genes",
+   "genes": 23,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": 0.7430346147967828,
+   "null_mean": 0.7287781933748714,
+   "perm_p_two_sided": 0.9081,
+   "share_of_genes_up": 0.9565217391304348
+  },
+  {
+   "gene_set": "Pirfenidone-lowered (1 mM)",
+   "genes": 11,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": 0.12567667938849325,
+   "null_mean": -0.11760576547505443,
+   "perm_p_two_sided": 0.0133,
+   "share_of_genes_up": 0.9090909090909091
+  },
+  {
+   "gene_set": "Pirfenidone-lowered (1 mM)",
+   "genes": 11,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": -0.49429838164685624,
+   "null_mean": -0.08862406835659192,
+   "perm_p_two_sided": 0.0061,
+   "share_of_genes_up": 0.0
+  },
+  {
+   "gene_set": "Pirfenidone-lowered (1 mM)",
+   "genes": 11,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": 0.7965521590596271,
+   "null_mean": 0.733624918224784,
+   "perm_p_two_sided": 0.6479,
+   "share_of_genes_up": 0.9090909090909091
+  },
+  {
+   "gene_set": "Scarring genes up in bald scalp",
+   "genes": 16,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": 0.12923330062182375,
+   "null_mean": -0.11528465452697419,
+   "perm_p_two_sided": 0.0095,
+   "share_of_genes_up": 0.75
+  },
+  {
+   "gene_set": "Scarring genes up in bald scalp",
+   "genes": 16,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": -0.6554295551698377,
+   "null_mean": -0.08048090156385905,
+   "perm_p_two_sided": 0.0002,
+   "share_of_genes_up": 0.0
+  },
+  {
+   "gene_set": "Scarring genes up in bald scalp",
+   "genes": 16,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": 0.4315621526297484,
+   "null_mean": 0.719104169531896,
+   "perm_p_two_sided": 0.1305,
+   "share_of_genes_up": 0.9375
+  },
+  {
+   "gene_set": "Immune genes up in bald scalp",
+   "genes": 7,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": 0.11682362514313738,
+   "null_mean": -0.12422292717719338,
+   "perm_p_two_sided": 0.0506,
+   "share_of_genes_up": 0.5714285714285714
+  },
+  {
+   "gene_set": "Immune genes up in bald scalp",
+   "genes": 7,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": -0.9105106216803962,
+   "null_mean": -0.08246804890208903,
+   "perm_p_two_sided": 0.0004,
+   "share_of_genes_up": 0.0
+  },
+  {
+   "gene_set": "Immune genes up in bald scalp",
+   "genes": 7,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": -0.12204614325948045,
+   "null_mean": 0.7394542006296382,
+   "perm_p_two_sided": 0.0116,
+   "share_of_genes_up": 0.2857142857142857
+  },
+  {
+   "gene_set": "Bald-up top 200",
+   "genes": 196,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": 0.12680507340408662,
+   "null_mean": -0.09249575597177902,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.6479591836734694
+  },
+  {
+   "gene_set": "Bald-up top 200",
+   "genes": 196,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": -0.5519116018717743,
+   "null_mean": -0.10461792690637947,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.04081632653061224
+  },
+  {
+   "gene_set": "Bald-up top 200",
+   "genes": 196,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": 0.3499011939074024,
+   "null_mean": 0.682952592095566,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.826530612244898
+  },
+  {
+   "gene_set": "Bald-down top 200",
+   "genes": 200,
+   "contrast": "frontal minus occipital",
+   "mean_log2_diff": -0.4135592791136017,
+   "null_mean": -0.11790583273130821,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.085
+  },
+  {
+   "gene_set": "Bald-down top 200",
+   "genes": 200,
+   "contrast": "beard minus frontal",
+   "mean_log2_diff": 0.38013329702865806,
+   "null_mean": -0.0863495090210518,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.86
+  },
+  {
+   "gene_set": "Bald-down top 200",
+   "genes": 200,
+   "contrast": "armpit minus frontal",
+   "mean_log2_diff": 0.9377773737690467,
+   "null_mean": 0.729240109174596,
+   "perm_p_two_sided": 0.0001,
+   "share_of_genes_up": 0.995
+  }
+ ],
+ "single_genes": {
+  "CXCL12": {
+   "frontal_vs_occipital": -0.04,
+   "beard_vs_frontal": -0.95,
+   "armpit_vs_frontal": 0.07,
+   "max_log_tpm": 4.18
+  },
+  "TGFB1": {
+   "frontal_vs_occipital": 0.01,
+   "beard_vs_frontal": -0.27,
+   "armpit_vs_frontal": 0.13,
+   "max_log_tpm": 2.19
+  },
+  "TGFB2": {
+   "frontal_vs_occipital": -0.49,
+   "beard_vs_frontal": 0.16,
+   "armpit_vs_frontal": 0.97,
+   "max_log_tpm": 2.81
+  },
+  "TGFBR1": {
+   "frontal_vs_occipital": -0.28,
+   "beard_vs_frontal": 0.09,
+   "armpit_vs_frontal": 0.97,
+   "max_log_tpm": 4.15
+  },
+  "TGFBR2": {
+   "frontal_vs_occipital": 0.26,
+   "beard_vs_frontal": -0.92,
+   "armpit_vs_frontal": 0.31,
+   "max_log_tpm": 4.49
+  },
+  "SMAD3": {
+   "frontal_vs_occipital": 0.09,
+   "beard_vs_frontal": -0.4,
+   "armpit_vs_frontal": 0.4,
+   "max_log_tpm": 2.64
+  },
+  "TWIST1": {
+   "frontal_vs_occipital": 0.3,
+   "beard_vs_frontal": -0.49,
+   "armpit_vs_frontal": 0.08,
+   "max_log_tpm": 2.57
+  },
+  "TWIST2": {
+   "frontal_vs_occipital": 0.2,
+   "beard_vs_frontal": -0.65,
+   "armpit_vs_frontal": 0.65,
+   "max_log_tpm": 3.17
+  },
+  "AR": {
+   "frontal_vs_occipital": 0.42,
+   "beard_vs_frontal": -0.92,
+   "armpit_vs_frontal": 0.09,
+   "max_log_tpm": 2.14
+  },
+  "SRD5A2": {
+   "frontal_vs_occipital": -0.46,
+   "beard_vs_frontal": 0.01,
+   "armpit_vs_frontal": 0.06,
+   "max_log_tpm": 0.76
+  },
+  "COL1A1": {
+   "frontal_vs_occipital": 0.61,
+   "beard_vs_frontal": -0.8,
+   "armpit_vs_frontal": 0.51,
+   "max_log_tpm": 6.34
+  },
+  "COL3A1": {
+   "frontal_vs_occipital": 0.19,
+   "beard_vs_frontal": -0.7,
+   "armpit_vs_frontal": 0.73,
+   "max_log_tpm": 8.31
+  },
+  "LOX": {
+   "frontal_vs_occipital": 0.41,
+   "beard_vs_frontal": -0.64,
+   "armpit_vs_frontal": 0.06,
+   "max_log_tpm": 2.46
+  },
+  "SPARC": {
+   "frontal_vs_occipital": -0.0,
+   "beard_vs_frontal": -0.27,
+   "armpit_vs_frontal": 0.69,
+   "max_log_tpm": 7.67
+  },
+  "TIMP1": {
+   "frontal_vs_occipital": 0.27,
+   "beard_vs_frontal": -0.61,
+   "armpit_vs_frontal": 0.51,
+   "max_log_tpm": 4.91
+  },
+  "DKK1": {
+   "frontal_vs_occipital": 0.22,
+   "beard_vs_frontal": -0.54,
+   "armpit_vs_frontal": -0.29,
+   "max_log_tpm": 0.87
+  },
+  "PTGDS": {
+   "frontal_vs_occipital": 1.55,
+   "beard_vs_frontal": -2.46,
+   "armpit_vs_frontal": -2.02,
+   "max_log_tpm": 6.43
+  }
+ }
+}

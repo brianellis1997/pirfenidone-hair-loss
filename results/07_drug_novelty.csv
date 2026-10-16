@@ -1,0 +1,23 @@
+group,drug,hair_papers,pattern_hair_loss_papers,all_papers
+TGF-beta / scarring,pirfenidone,0,0,2589
+TGF-beta / scarring,telmisartan,0,0,2990
+TGF-beta / scarring,losartan,1,0,10193
+TGF-beta / scarring,tranilast,0,0,772
+TGF-beta / scarring,nintedanib,3,0,2437
+TGF-beta / scarring,galunisertib,1,0,210
+IL-6,tocilizumab,11,0,8284
+IL-6,tofacitinib,340,3,4445
+IL-6,ruxolitinib,112,4,4125
+IL-6,baricitinib,363,5,2453
+PGD2,setipiprant,2,2,15
+PGD2,fevipiprant,0,0,51
+PGD2,ramatroban,0,0,83
+Wnt brakes,lithium,50,2,80863
+Wnt brakes,valproic acid,62,6,11671
+Wnt brakes,cyclosporine,223,8,35159
+Wnt brakes,WAY-316606,1,0,12
+Wnt brakes,romosozumab,0,0,860
+reference,minoxidil,1886,916,3035
+reference,finasteride,984,675,3550
+reference,dutasteride,270,178,1279
+reference,latanoprost,43,15,2218

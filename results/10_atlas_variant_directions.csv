@@ -1,0 +1,6 @@
+snp,atlas_cluster,linked_genes,motif,fine_map_prob,more_open_allele,gwas_beta_more_open_allele_sd,gwas_p,reading
+rs6969316,Spinous.Kc_2,TWIST1,HOXD3/4,0.8543,A,-0.024768831902856107,8e-13,"more open DNA, less balding"
+rs6737860,D.Fib_2,LINC01117;LINC01116,SMAD3/4,0.6455,C,0.04749587529892057,1e-51,"more open DNA, more balding"
+rs7421387,Vas.Endo_2,TWIST2;ASB1,ELF,0.0753,T,-0.02316126578044474,4.5e-13,"more open DNA, less balding"
+rs62189261,Vas.Endo_1,TWIST2,,0.1248,T,,,
+rs73325511,Inf.Segment_2,TWIST1,,0.9879,C,-0.04607707064750469,1.1e-15,"more open DNA, less balding"

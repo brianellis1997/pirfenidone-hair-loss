@@ -1,0 +1,24 @@
+{'group': 'TGF-beta / scarring', 'drug': 'pirfenidone', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 2589}
+{'group': 'TGF-beta / scarring', 'drug': 'telmisartan', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 2990}
+{'group': 'TGF-beta / scarring', 'drug': 'losartan', 'hair_papers': 1, 'pattern_hair_loss_papers': 0, 'all_papers': 10193}
+{'group': 'TGF-beta / scarring', 'drug': 'tranilast', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 772}
+{'group': 'TGF-beta / scarring', 'drug': 'nintedanib', 'hair_papers': 3, 'pattern_hair_loss_papers': 0, 'all_papers': 2437}
+{'group': 'TGF-beta / scarring', 'drug': 'galunisertib', 'hair_papers': 1, 'pattern_hair_loss_papers': 0, 'all_papers': 210}
+{'group': 'IL-6', 'drug': 'tocilizumab', 'hair_papers': 11, 'pattern_hair_loss_papers': 0, 'all_papers': 8284}
+{'group': 'IL-6', 'drug': 'tofacitinib', 'hair_papers': 340, 'pattern_hair_loss_papers': 3, 'all_papers': 4445}
+{'group': 'IL-6', 'drug': 'ruxolitinib', 'hair_papers': 112, 'pattern_hair_loss_papers': 4, 'all_papers': 4125}
+{'group': 'IL-6', 'drug': 'baricitinib', 'hair_papers': 363, 'pattern_hair_loss_papers': 5, 'all_papers': 2453}
+{'group': 'PGD2', 'drug': 'setipiprant', 'hair_papers': 2, 'pattern_hair_loss_papers': 2, 'all_papers': 15}
+{'group': 'PGD2', 'drug': 'fevipiprant', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 51}
+{'group': 'PGD2', 'drug': 'ramatroban', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 83}
+{'group': 'Wnt brakes', 'drug': 'lithium', 'hair_papers': 50, 'pattern_hair_loss_papers': 2, 'all_papers': 80863}
+{'group': 'Wnt brakes', 'drug': 'valproic acid', 'hair_papers': 62, 'pattern_hair_loss_papers': 6, 'all_papers': 11671}
+{'group': 'Wnt brakes', 'drug': 'cyclosporine', 'hair_papers': 223, 'pattern_hair_loss_papers': 8, 'all_papers': 35159}
+{'group': 'Wnt brakes', 'drug': 'WAY-316606', 'hair_papers': 1, 'pattern_hair_loss_papers': 0, 'all_papers': 12}
+{'group': 'Wnt brakes', 'drug': 'romosozumab', 'hair_papers': 0, 'pattern_hair_loss_papers': 0, 'all_papers': 860}
+{'group': 'reference', 'drug': 'minoxidil', 'hair_papers': 1886, 'pattern_hair_loss_papers': 916, 'all_papers': 3035}
+{'group': 'reference', 'drug': 'finasteride', 'hair_papers': 984, 'pattern_hair_loss_papers': 675, 'all_papers': 3550}
+{'group': 'reference', 'drug': 'dutasteride', 'hair_papers': 270, 'pattern_hair_loss_papers': 178, 'all_papers': 1279}
+{'group': 'reference', 'drug': 'latanoprost', 'hair_papers': 43, 'pattern_hair_loss_papers': 15, 'all_papers': 2218}
+{'fibrosis + pattern hair loss': 214, 'TGF-beta + pattern hair loss': 78, 'TGF-beta + catagen': 81, 'pirfenidone + skin/scar/topical': 200} {'pirfenidone alopecia': {'count': 1, 'titles': ['Research of Burden of Interstititial Lung Diseases in Turkey']}, 'pirfenidone hair': {'count': 0, 'titles': []}}
+saved results/07_summary.json

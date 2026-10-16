@@ -1,0 +1,61 @@
+audit_id,audit_stance,audit_type,audit_confidence,note
+28,none,human_patients_or_tissue,clear,"trichoscopy of female AGA; 'non scarring' is a clinical label, not a fibrosis finding"
+49,none,review,ambiguous,smoking review speculates micro-inflammation and fibrosis as a mechanism; not an AGA finding
+53,none,human_cells,clear,flavonoids on endothelial cells
+54,none,review,clear,"perifollicular inflammation, no fibrosis claim"
+78,none,human_patients_or_tissue,ambiguous,BMP/TGF-beta pathway genes lower in AGA scalp; no androgen test
+93,none,human_cells,ambiguous,compounds 'regulated' TGF-beta1 secretion; DHT effect on TGF-beta1 not stated
+95,supports,human_ex_vivo,clear,DHT organ model shows elevated TGF-beta1
+98,none,human_patients_or_tissue,ambiguous,balding vs non-balding follicles: TGF-beta1 higher; androgens not manipulated
+103,none,human_ex_vivo,clear,"miRNA study; Alk5i helps hair, nothing on androgens raising TGF-beta"
+111,none,animal,clear,5-alpha-reductase inhibitor lowers TGF-beta1; androgen effect not shown
+118,none,human_cells,clear,glycyrrhetinic acid lowers TGF-beta1; androgen effect not shown
+153,none,human_ex_vivo,clear,UV on follicles; TGF-beta2 localization shift only
+155,none,animal,clear,CD109 knockout hair defect not via TGF-beta (pSmad2 unchanged)
+182,none,review,clear,SSc-ILD lung guideline
+197,none,review,clear,IPF tablet profile
+200,none,review,clear,renal fibrosis review
+204,none,animal,clear,"airway allograft fibrosis, not skin"
+208,supports,animal,clear,local pirfenidone implant reduced peri-implant fibrosis in rabbit ear skin
+215,none,animal,clear,ocular pharmacokinetics
+219,none,human_patients_or_tissue,clear,oral pirfenidone phototoxicity case
+221,supports,human_cells,clear,pirfenidone gel cut TGF-beta1-induced alpha-SMA >2-fold in human dermal fibroblasts
+223,supports,human_cells,clear,pirfenidone blocked TGF-beta1-induced EMT genes and fibronectin in keloid keratinocytes
+238,none,human_patients_or_tissue,clear,IPF real-world lung function
+246,none,review,ambiguous,review says topical works for scars; no tolerability statement
+247,supports,animal,ambiguous,"topical ointment had no adverse effect on re-epithelialization in mice; animal, not human skin"
+258,none,human_cells,clear,epidural scar fibroblasts; not skin tolerability
+263,supports,animal,ambiguous,topical pirfenidone in mice without inflammatory skin lesions; animal
+266,none,human_patients_or_tissue,ambiguous,"topical pirfenidone ulcer RCT reports efficacy only, no safety statement"
+277,none,human_patients_or_tissue,clear,"oral pirfenidone phototoxicity case, not topical"
+279,supports,human_patients_or_tissue,clear,"8% gel for 6 months in 33 children: no serious adverse effects, 'effective and safe'"
+280,none,human_patients_or_tissue,ambiguous,topical pirfenidone on graft donor sites; efficacy only
+286,none,animal,ambiguous,spray dressing in burn model; no tolerability statement
+287,none,human_patients_or_tissue,clear,"photosensitivity from oral pirfenidone, not topical"
+297,none,review,ambiguous,scar drug review; generic 'known safety profile' for the class
+303,none,review,clear,IPF review
+314,none,animal,clear,photosafety of oral pirfenidone
+317,none,human_patients_or_tissue,clear,photosensitive rash case
+331,none,review,clear,IPF meta-analysis
+337,none,human_patients_or_tissue,clear,antifibrotic persistence claims data
+339,none,review,clear,IPF tablet profile
+348,none,animal,clear,"tranilast in smoke lung injury, not skin"
+353,none,human_cells,ambiguous,"tranilast in corneal fibroblasts, not dermal"
+359,none,human_cells,ambiguous,"tranilast lowers TGF-beta1 secretion in conjunctival cells, not skin"
+360,none,review,ambiguous,TGF-beta review lists tranilast as a nonspecific inhibitor; not skin
+363,none,human_cells,clear,cardiac fibroblasts
+364,none,animal,clear,myocardial fibrosis
+369,none,animal,clear,"proliferative vitreoretinopathy, eye"
+372,none,animal,clear,"diabetic nephropathy, kidney"
+384,none,human_patients_or_tissue,clear,eosinophilic folliculitis responded to tranilast; nothing on hair growth
+389,none,animal,clear,"cochlear hair cells, not hair"
+393,none,review,clear,scleroderma review lists losartan as a vasodilator
+398,none,human_cells,clear,losartan blocks AngII calcium signaling in skin fibroblasts; no fibrosis readout
+403,none,animal,ambiguous,valsartan gel increased collagen and pSMAD in wounds; no losartan-specific result
+409,supports,animal,ambiguous,losartan lowered collagen density in a skin-implanted tumor chamber
+422,none,animal,clear,infarcted heart
+425,none,other,clear,heart fibroblasts
+446,none,review,clear,nintedanib in lung ILD
+453,none,animal,clear,lung EndoMT
+472,none,human_patients_or_tissue,clear,"sarcoma trial; alopecia listed for the ifosfamide arm, not nintedanib"
+483,supports,animal,ambiguous,galunisertib added antifibrotic effect in murine dermal fibrosis (combination)

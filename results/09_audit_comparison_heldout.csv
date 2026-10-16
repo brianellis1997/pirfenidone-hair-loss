@@ -1,0 +1,41 @@
+audit_id,claim_id,pmid,audit_stance,final,A_stance,B_stance,C_stance,S_stance,resolution,pipeline_error,audit_confidence,note
+31,C1 scarring in bald scalp,25690790,none,none,none,none,,none,agree,,clear,papilla-endothelial crosstalk; no fibrosis
+46,C1 scarring in bald scalp,20346026,none,none,none,none,,supports,agree,,clear,"pediatric AGA: perifollicular inflammation, not fibrosis"
+60,C2 DHT raises TGF-beta,36382136,none,none,none,none,,none,agree,,clear,regenerative medicine review
+83,C2 DHT raises TGF-beta,25647436,none,none,none,none,,supports,agree,,clear,balding papilla cells secrete more TGF-beta under oxidative stress; no androgen test
+84,C2 DHT raises TGF-beta,40735523,none,supports,none,supports,supports,contradicts,majority,supports (audit: none),ambiguous,treatment lowered TGF-beta1 in a testosterone model; testosterone's own effect not stated
+91,C2 DHT raises TGF-beta,40618686,none,supports,none,supports,supports,contradicts,majority,supports (audit: none),ambiguous,light therapy suppressed TGF-beta signaling in DHT-treated cells; DHT's effect not stated
+92,C2 DHT raises TGF-beta,41522797,none,none,none,supports,none,none,majority,,ambiguous,fibrosis-in-AGA review; androgen to TGF-beta not stated
+99,C2 DHT raises TGF-beta,42363148,none,supports,none,supports,supports,contradicts,majority,supports (audit: none),ambiguous,exosomes suppress TGF-beta/Smad; DHT's effect on TGF-beta not stated
+109,C2 DHT raises TGF-beta,42434724,none,none,none,supports,none,supports,majority,,clear,miRNA review
+112,C2 DHT raises TGF-beta,35209207,none,none,none,supports,none,contradicts,majority,,clear,extract inhibits H2O2-induced TGF-beta; testosterone used only to measure DHT production
+113,C2 DHT raises TGF-beta,41571202,supports,supports,supports,supports,,supports,agree,,clear,DHT increased TGF-beta in the mouse model and papilla cells
+115,C2 DHT raises TGF-beta,39408700,none,unresolved,none,supports,contradicts,supports,three-way split,unresolved (audit: none),clear,plant extract; no androgen test
+119,C2 DHT raises TGF-beta,40807520,none,supports,none,supports,supports,contradicts,majority,supports (audit: none),clear,extract lowers TGF-beta1; androgen link is background only
+149,C3 TGF-beta stops hair growth,36402892,none,supports,none,supports,supports,contradicts,majority,supports (audit: none),ambiguous,TGF-beta2 used to make ORS cells apoptotic; keratin drives regrowth
+167,C3 TGF-beta stops hair growth,12734112,none,supports,contradicts,supports,supports,contradicts,majority,supports (audit: none),ambiguous,cyclosporin hair growth with lower TGF-beta; correlational
+174,C3 TGF-beta stops hair growth,10932194,none,supports,none,supports,supports,mixed,majority,supports (audit: none),clear,activin knock-in; no TGF-beta signaling direction
+177,C3 TGF-beta stops hair growth,2002254,none,none,none,none,,contradicts,agree,,clear,"TGF-alpha, not TGF-beta"
+185,C4 pirfenidone is antifibrotic in skin,40912974,none,none,none,none,,none,agree,,clear,CTD-ILD lung guideline
+187,C4 pirfenidone is antifibrotic in skin,21611927,none,none,none,none,,none,agree,,clear,ILD review
+191,C4 pirfenidone is antifibrotic in skin,29497173,supports,supports,supports,supports,,supports,agree,,clear,pirfenidone cut TGF-beta1-induced myofibroblast features and collagen I/III in human dermal fibroblasts
+206,C4 pirfenidone is antifibrotic in skin,31754786,none,none,none,none,,none,agree,,clear,SSc-ILD review
+239,C4 pirfenidone is antifibrotic in skin,30731453,none,none,none,supports,none,supports,majority,,ambiguous,pirfenidone arrests skin fibroblast proliferation; no TGF-beta or collagen readout
+250,C5 topical pirfenidone is tolerated,26723907,none,none,supports,none,none,none,majority,,ambiguous,"pirfenidone film on mouse wounds: less collagen, faster healing; no tolerability statement"
+265,C5 topical pirfenidone is tolerated,37358639,none,none,none,none,,none,agree,,clear,"inhaled relaxin vs oral pirfenidone, lung"
+273,C5 topical pirfenidone is tolerated,27143855,none,none,none,none,,none,agree,,clear,"glaucoma bleb, eye, not skin"
+288,C5 topical pirfenidone is tolerated,36118185,none,none,none,supports,none,none,majority,,ambiguous,"commentary on topical efficacy, not tolerability"
+298,C5 topical pirfenidone is tolerated,42742058,none,none,none,none,,none,agree,,clear,"topical on the larynx, not skin"
+330,pirfenidone | antifibrotic in skin,30731453,none,none,none,supports,none,supports,majority,,ambiguous,same paper as 239; proliferation only
+374,tranilast | antifibrotic in skin,26020822,none,none,none,supports,none,supports,majority,,clear,"corneal fibroblasts, eye"
+377,tranilast | antifibrotic in skin,7536763,none,supports,supports,supports,,supports,agree,supports (audit: none),ambiguous,"cutaneous sarcoidosis remission; granulomas, not fibrosis"
+378,tranilast | antifibrotic in skin,7533764,supports,supports,supports,supports,,supports,agree,,clear,"tranilast blocks TGF-beta1-stimulated collagen in human skin, scleroderma and keloid fibroblasts"
+381,tranilast | antifibrotic in skin,11925949,none,none,none,none,,none,agree,,clear,"corneal haze, eye"
+382,tranilast | antifibrotic in skin,15664396,none,none,none,none,,supports,agree,,clear,diabetic heart
+391,telmisartan | good for hair,38807407,none,none,contradicts,none,none,contradicts,majority,,clear,nitrosamine melanoma essay; nothing on hair
+430,losartan | antifibrotic in skin,28614412,mixed,unresolved,supports,mixed,contradicts,mixed,three-way split,unresolved (audit: mixed),clear,"oral losartan in pig burns: fewer myofibroblasts in partial-thickness wounds, worse scars in full-thickness"
+444,nintedanib | antifibrotic in skin,36055997,none,none,none,supports,none,supports,majority,,ambiguous,senolytic in dermal fibroblasts; the collagen result is lung
+455,nintedanib | antifibrotic in skin,32161331,none,none,none,none,,none,agree,,clear,"dermatitis model, no fibrosis readout"
+461,nintedanib | antifibrotic in skin,35184163,none,none,none,none,,supports,agree,,clear,lung fibroblast spheroid assay
+465,nintedanib | antifibrotic in skin,37475899,none,none,none,none,,none,agree,,clear,RA-ILD review
+485,galunisertib | antifibrotic in skin,40274953,none,supports,none,supports,supports,supports,majority,supports (audit: none),clear,"muscle progenitor cells, heterotopic ossification"

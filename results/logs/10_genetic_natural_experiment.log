@@ -1,0 +1,168 @@
+eQTL variants: 290,470; found in the baldness GWAS: 227,085
+baldness score SD estimated from the GWAS standard errors: 0.986
+direction check, AR rs6152: the known risk allele G has beta +0.248, so a higher score means more balding
+
+panels (testable = activity variant p < 1e-5): {
+ "hypothesis": {
+  "gene_tissue_pairs": 30,
+  "testable": 8,
+  "shared_variant_H4": 0,
+  "different_variants_H3": 4,
+  "genes_with_H4": []
+ },
+ "reference": {
+  "gene_tissue_pairs": 96,
+  "testable": 23,
+  "shared_variant_H4": 10,
+  "different_variants_H3": 8,
+  "genes_with_H4": [
+   "FAM53B",
+   "GLI2",
+   "IQGAP1",
+   "LRMDA",
+   "MPDZ"
+  ]
+ },
+ "fisher_hypothesis_vs_reference": {
+  "odds_ratio": 0.0,
+  "p": 0.031710447505775646,
+  "caveat": "reference genes were chosen by genetic scores that partly use colocalization evidence"
+ }
+}
+   gene      panel                       tissue  n_snps  eqtl_lead_p  gwas_min_p_in_window  PP.H3  PP.H4                 verdict  mr_beta_per_sd_expression     mr_p                  mr_direction
+  TGFB1 hypothesis fibroblasts (cultured, skin)    4929      0.00106               3.9e-32  0.305 0.0424 no gene-activity signal                        NaN      NaN                           NaN
+  TGFB2 hypothesis fibroblasts (cultured, skin)    6599     7.06e-05                 7e-15  0.477  0.035                 unclear                        NaN      NaN                           NaN
+ TGFBR1 hypothesis fibroblasts (cultured, skin)    5100     4.93e-05                 1e-05 0.0507 0.0049 no gene-activity signal                        NaN      NaN                           NaN
+ TGFBR2 hypothesis fibroblasts (cultured, skin)    7132     1.37e-06               5.6e-16  0.879 0.0051 different variants (H3)                        NaN      NaN                           NaN
+  SMAD3 hypothesis fibroblasts (cultured, skin)    5842     1.87e-11                 2e-11      1      0 different variants (H3)                     0.0235   0.0367 higher activity, more balding
+ TWIST1 hypothesis fibroblasts (cultured, skin)    7162      0.00127              1.4e-314  0.381 0.0339 no gene-activity signal                        NaN      NaN                           NaN
+  HDAC9 hypothesis fibroblasts (cultured, skin)    5931     5.85e-05              1.4e-314   0.39 0.0866 no gene-activity signal                        NaN      NaN                           NaN
+ TWIST2 hypothesis fibroblasts (cultured, skin)    7425     1.93e-11              7.7e-187      1      0 different variants (H3)                    -0.0392 0.000355 higher activity, less balding
+  PDGFA hypothesis fibroblasts (cultured, skin)    5515     5.52e-06               1.3e-92  0.383 0.0228 no gene-activity signal                   0.000104    0.994 higher activity, more balding
+     AR hypothesis fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   FGF5  reference fibroblasts (cultured, skin)    5650     0.000485              2.3e-113  0.362 0.0551 no gene-activity signal                        NaN      NaN                           NaN
+   EBF1  reference fibroblasts (cultured, skin)    5497     9.43e-05              4.2e-260  0.371 0.0271 no gene-activity signal                        NaN      NaN                           NaN
+  RUNX1  reference fibroblasts (cultured, skin)    6892     0.000849                 2e-05  0.129 0.0204 no gene-activity signal                        NaN      NaN                           NaN
+ MRPS22  reference fibroblasts (cultured, skin)    4789     3.86e-08              1.7e-112  0.902 0.0147 different variants (H3)                      0.149 3.09e-27 higher activity, more balding
+ WNT10A  reference fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+  TBX15  reference fibroblasts (cultured, skin)    5491     0.000407               2.6e-84  0.321 0.0417 no gene-activity signal                        NaN      NaN                           NaN
+  PRDM6  reference fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   PAX3  reference fibroblasts (cultured, skin)    5796     0.000478               1.1e-23   0.41 0.0341 no gene-activity signal                        NaN      NaN                           NaN
+  RSPO2  reference fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+  AUTS2  reference fibroblasts (cultured, skin)    5315     0.000348              2.3e-204  0.337 0.0429 no gene-activity signal                        NaN      NaN                           NaN
+  CIROZ  reference fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   PBX1  reference fibroblasts (cultured, skin)    6015      0.00145               6.4e-24  0.342 0.0288 no gene-activity signal                        NaN      NaN                           NaN
+   FMN1  reference fibroblasts (cultured, skin)    6319     1.37e-05               6.8e-17  0.584 0.0916                 unclear                        NaN      NaN                           NaN
+SLC14A2  reference fibroblasts (cultured, skin)    5403     2.38e-05              3.1e-111  0.432 0.0432 no gene-activity signal                        NaN      NaN                           NaN
+   DKK2  reference fibroblasts (cultured, skin)    5216     0.000534               6.3e-51  0.297 0.0554 no gene-activity signal                        NaN      NaN                           NaN
+  LRMDA  reference fibroblasts (cultured, skin)    4131     1.34e-22               1.4e-74      1      0 different variants (H3)                    -0.0117   0.0948 higher activity, less balding
+ SPAG17  reference fibroblasts (cultured, skin)       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+  RREB1  reference fibroblasts (cultured, skin)    7456     0.000111               3.1e-15  0.426 0.0933                 unclear                        NaN      NaN                           NaN
+   IRF4  reference fibroblasts (cultured, skin)    4376     0.000323               1.8e-38  0.277 0.0267 no gene-activity signal                        NaN      NaN                           NaN
+  GLIS1  reference fibroblasts (cultured, skin)    6139     8.42e-09               1.7e-19  0.894 0.0315 different variants (H3)                    -0.0156    0.137 higher activity, less balding
+   EYA4  reference fibroblasts (cultured, skin)    6679     1.47e-10               1.9e-05  0.194   0.04 no baldness signal here                     0.0197   0.0161 higher activity, more balding
+   MPDZ  reference fibroblasts (cultured, skin)    7191      2.2e-34               2.6e-24 0.0006  0.999     shared variant (H4)                    -0.0549  2.2e-21 higher activity, less balding
+ COMMD7  reference fibroblasts (cultured, skin)    4338        5e-05               1.9e-10   0.17   0.72                 unclear                        NaN      NaN                           NaN
+   EPC1  reference fibroblasts (cultured, skin)    6771     0.000467               3.7e-25  0.362   0.06 no gene-activity signal                        NaN      NaN                           NaN
+ FAM53B  reference fibroblasts (cultured, skin)    6685     2.41e-09               1.2e-92  0.999      0 different variants (H3)                      0.163 4.77e-29 higher activity, more balding
+   BCL2  reference fibroblasts (cultured, skin)    6111       0.0014               4.1e-33  0.333 0.0285 no gene-activity signal                        NaN      NaN                           NaN
+   TCHH  reference fibroblasts (cultured, skin)    4986      0.00087                 8e-58    0.3 0.0585 no gene-activity signal                        NaN      NaN                           NaN
+  KLF15  reference fibroblasts (cultured, skin)    7330     0.000124               7.3e-80  0.447 0.0519 no gene-activity signal                        NaN      NaN                           NaN
+  LAMC3  reference fibroblasts (cultured, skin)    5894      0.00074               8.8e-19  0.342  0.054 no gene-activity signal                        NaN      NaN                           NaN
+   GLI2  reference fibroblasts (cultured, skin)    5561     0.000932               1.5e-09  0.308  0.061 no gene-activity signal                        NaN      NaN                           NaN
+ IQGAP1  reference fibroblasts (cultured, skin)    6562     1.47e-10                 2e-41      0      1     shared variant (H4)                     -0.159 1.86e-37 higher activity, less balding
+  TRPS1  reference fibroblasts (cultured, skin)    4852      0.00084               8.2e-35  0.217  0.454                 unclear                        NaN      NaN                           NaN
+  TGFB1 hypothesis        skin, not sun-exposed    4881     0.000909               3.9e-32    0.3 0.0285 no gene-activity signal                        NaN      NaN                           NaN
+  TGFB2 hypothesis        skin, not sun-exposed    6553     0.000421                 7e-15  0.336 0.0497 no gene-activity signal                        NaN      NaN                           NaN
+ TGFBR1 hypothesis        skin, not sun-exposed    5101     0.000821                 1e-05 0.0351 0.0059 no gene-activity signal                        NaN      NaN                           NaN
+ TGFBR2 hypothesis        skin, not sun-exposed    7159     6.62e-07               5.6e-16  0.465 0.0278 no gene-activity signal                      0.025    0.274 higher activity, more balding
+  SMAD3 hypothesis        skin, not sun-exposed    5877      0.00048                 2e-11  0.327  0.145 no gene-activity signal                        NaN      NaN                           NaN
+ TWIST1 hypothesis        skin, not sun-exposed    7080     0.000216              1.4e-314  0.083  0.802     shared variant (H4)                        NaN      NaN                           NaN
+  HDAC9 hypothesis        skin, not sun-exposed    5852     5.76e-05              1.4e-314  0.434 0.0224 no gene-activity signal                        NaN      NaN                           NaN
+ TWIST2 hypothesis        skin, not sun-exposed    7450     8.49e-05              7.7e-187  0.438 0.0216 no gene-activity signal                        NaN      NaN                           NaN
+  PDGFA hypothesis        skin, not sun-exposed    5434     5.52e-09               1.3e-92  0.967 0.0013 different variants (H3)                    -0.0938 3.42e-17 higher activity, less balding
+     AR hypothesis        skin, not sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   FGF5  reference        skin, not sun-exposed    5573      1.4e-05              2.3e-113  0.489 0.0441                 unclear                        NaN      NaN                           NaN
+   EBF1  reference        skin, not sun-exposed    5497     0.000239              4.2e-260  0.319 0.0265 no gene-activity signal                        NaN      NaN                           NaN
+  RUNX1  reference        skin, not sun-exposed    6863      3.3e-05                 2e-05  0.141 0.0185 no gene-activity signal                        NaN      NaN                           NaN
+ MRPS22  reference        skin, not sun-exposed    4737      0.00128              1.7e-112  0.319 0.0589 no gene-activity signal                        NaN      NaN                           NaN
+ WNT10A  reference        skin, not sun-exposed    4971      0.00358               1.2e-76  0.279 0.0373 no gene-activity signal                        NaN      NaN                           NaN
+  TBX15  reference        skin, not sun-exposed    5481     5.44e-07               2.6e-84  0.332 0.0285 no gene-activity signal                      0.382    0.145 higher activity, more balding
+  PRDM6  reference        skin, not sun-exposed    5677      0.00185               4.7e-35   0.31 0.0312 no gene-activity signal                        NaN      NaN                           NaN
+   PAX3  reference        skin, not sun-exposed    5850     0.000575               1.1e-23   0.38 0.0811 no gene-activity signal                        NaN      NaN                           NaN
+  RSPO2  reference        skin, not sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+  AUTS2  reference        skin, not sun-exposed    5294     0.000429              2.3e-204  0.341 0.0252 no gene-activity signal                        NaN      NaN                           NaN
+  CIROZ  reference        skin, not sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   PBX1  reference        skin, not sun-exposed    5995     0.000421               6.4e-24   0.34 0.0497 no gene-activity signal                        NaN      NaN                           NaN
+   FMN1  reference        skin, not sun-exposed    6334     1.28e-07               6.8e-17  0.957 0.0151 different variants (H3)                     0.0479 4.55e-05 higher activity, more balding
+SLC14A2  reference        skin, not sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   DKK2  reference        skin, not sun-exposed    5194      0.00183               6.3e-51  0.288 0.0522 no gene-activity signal                        NaN      NaN                           NaN
+  LRMDA  reference        skin, not sun-exposed    4135     2.55e-12               1.4e-74      1      0 different variants (H3)                        NaN      NaN                           NaN
+ SPAG17  reference        skin, not sun-exposed    5509     9.06e-05               2.6e-84  0.347 0.0311 no gene-activity signal                        NaN      NaN                           NaN
+  RREB1  reference        skin, not sun-exposed    7460     1.98e-05               3.1e-15  0.493 0.0442                 unclear                        NaN      NaN                           NaN
+   IRF4  reference        skin, not sun-exposed    4367     0.000311               1.8e-38  0.303 0.0253 no gene-activity signal                        NaN      NaN                           NaN
+  GLIS1  reference        skin, not sun-exposed    6167     3.98e-06               1.7e-19  0.596   0.07                 unclear                     0.0719 5.34e-08 higher activity, more balding
+   EYA4  reference        skin, not sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   MPDZ  reference        skin, not sun-exposed    7202     1.62e-08               2.6e-24  0.013  0.975     shared variant (H4)                     -0.135  2.2e-21 higher activity, less balding
+ COMMD7  reference        skin, not sun-exposed    4317     0.000573               1.9e-10  0.259 0.0601 no gene-activity signal                        NaN      NaN                           NaN
+   EPC1  reference        skin, not sun-exposed    6713     0.000408               3.7e-25  0.329  0.112 no gene-activity signal                        NaN      NaN                           NaN
+ FAM53B  reference        skin, not sun-exposed    6693     3.94e-07               1.2e-92 0.0486  0.951     shared variant (H4)                     -0.269 1.38e-54 higher activity, less balding
+   BCL2  reference        skin, not sun-exposed    6036     0.000312               4.1e-33  0.397 0.0301 no gene-activity signal                        NaN      NaN                           NaN
+   TCHH  reference        skin, not sun-exposed    4914     0.000777                 8e-58  0.274  0.119 no gene-activity signal                        NaN      NaN                           NaN
+  KLF15  reference        skin, not sun-exposed    7302     0.000223               7.3e-80   0.38 0.0543 no gene-activity signal                        NaN      NaN                           NaN
+  LAMC3  reference        skin, not sun-exposed    5871     3.98e-05               8.8e-19  0.375   0.09 no gene-activity signal                        NaN      NaN                           NaN
+   GLI2  reference        skin, not sun-exposed    5509      1.1e-06               1.5e-09 0.0734  0.912     shared variant (H4)                      0.034  0.00558 higher activity, more balding
+ IQGAP1  reference        skin, not sun-exposed    6501     2.62e-19                 2e-41  0.001  0.999     shared variant (H4)                    -0.0994 1.86e-37 higher activity, less balding
+  TRPS1  reference        skin, not sun-exposed    4795     1.87e-05               8.2e-35  0.321  0.068 no gene-activity signal                        NaN      NaN                           NaN
+  TGFB1 hypothesis            skin, sun-exposed    4851      0.00165               3.9e-32  0.272 0.0262 no gene-activity signal                        NaN      NaN                           NaN
+  TGFB2 hypothesis            skin, sun-exposed    6630        7e-05                 7e-15  0.331 0.0388 no gene-activity signal                        NaN      NaN                           NaN
+ TGFBR1 hypothesis            skin, sun-exposed    5092      3.5e-05                 1e-05 0.0388 0.0052 no gene-activity signal                        NaN      NaN                           NaN
+ TGFBR2 hypothesis            skin, sun-exposed    7174     6.78e-05               5.6e-16   0.41 0.0419 no gene-activity signal                        NaN      NaN                           NaN
+  SMAD3 hypothesis            skin, sun-exposed    5852     1.44e-06                 2e-11  0.389  0.572                 unclear                     0.0586 0.000179 higher activity, more balding
+ TWIST1 hypothesis            skin, sun-exposed    7068      0.00129              1.4e-314  0.446 0.0222 no gene-activity signal                        NaN      NaN                           NaN
+  HDAC9 hypothesis            skin, sun-exposed    5870     0.000356              1.4e-314  0.356 0.0268 no gene-activity signal                        NaN      NaN                           NaN
+ TWIST2 hypothesis            skin, sun-exposed    7427     4.34e-05              7.7e-187  0.368 0.0373 no gene-activity signal                        NaN      NaN                           NaN
+  PDGFA hypothesis            skin, sun-exposed    5502     1.52e-06               1.3e-92  0.718 0.0112                 unclear                        NaN      NaN                           NaN
+     AR hypothesis            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   FGF5  reference            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   EBF1  reference            skin, sun-exposed    5415     7.77e-05              4.2e-260  0.311 0.0567 no gene-activity signal                        NaN      NaN                           NaN
+  RUNX1  reference            skin, sun-exposed    6888     0.000504                 2e-05  0.116 0.0192 no gene-activity signal                        NaN      NaN                           NaN
+ MRPS22  reference            skin, sun-exposed    4770     0.000225              1.7e-112  0.384 0.0495 no gene-activity signal                        NaN      NaN                           NaN
+ WNT10A  reference            skin, sun-exposed    4994     0.000236               1.2e-76  0.247  0.241 no gene-activity signal                        NaN      NaN                           NaN
+  TBX15  reference            skin, sun-exposed    5376     8.52e-05               2.6e-84  0.425 0.0287 no gene-activity signal                        NaN      NaN                           NaN
+  PRDM6  reference            skin, sun-exposed    5732      0.00168               4.7e-35  0.363 0.0243 no gene-activity signal                        NaN      NaN                           NaN
+   PAX3  reference            skin, sun-exposed    5789     3.95e-05               1.1e-23  0.329  0.174                 unclear                        NaN      NaN                           NaN
+  RSPO2  reference            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+  AUTS2  reference            skin, sun-exposed    5311     0.000116              2.3e-204  0.473 0.0191 no gene-activity signal                        NaN      NaN                           NaN
+  CIROZ  reference            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   PBX1  reference            skin, sun-exposed    6001     7.73e-05               6.4e-24  0.411 0.0323 no gene-activity signal                        NaN      NaN                           NaN
+   FMN1  reference            skin, sun-exposed    6323     2.68e-11               6.8e-17   0.76   0.24                 unclear                     0.0895 4.95e-13 higher activity, more balding
+SLC14A2  reference            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   DKK2  reference            skin, sun-exposed    5196     0.000417               6.3e-51   0.28  0.062 no gene-activity signal                        NaN      NaN                           NaN
+  LRMDA  reference            skin, sun-exposed    4148     3.15e-06               1.4e-74  0.115  0.814     shared variant (H4)                        NaN      NaN                           NaN
+ SPAG17  reference            skin, sun-exposed    5589     0.000197               2.6e-84   0.38 0.0257 no gene-activity signal                        NaN      NaN                           NaN
+  RREB1  reference            skin, sun-exposed    7467     0.000305               3.1e-15  0.323  0.262                 unclear                        NaN      NaN                           NaN
+   IRF4  reference            skin, sun-exposed    4310     0.000249               1.8e-38  0.302 0.0247 no gene-activity signal                        NaN      NaN                           NaN
+  GLIS1  reference            skin, sun-exposed    6171     0.000122               1.7e-19  0.429 0.0734                 unclear                        NaN      NaN                           NaN
+   EYA4  reference            skin, sun-exposed       0          NaN                   NaN    NaN    NaN                     NaN                        NaN      NaN                           NaN
+   MPDZ  reference            skin, sun-exposed    7231     1.28e-09               2.6e-24 0.0021  0.996     shared variant (H4)                     -0.138  2.2e-21 higher activity, less balding
+ COMMD7  reference            skin, sun-exposed    4331     5.27e-05               1.9e-10  0.258  0.563                 unclear                        NaN      NaN                           NaN
+   EPC1  reference            skin, sun-exposed    6728      0.00131               3.7e-25  0.348 0.0419 no gene-activity signal                        NaN      NaN                           NaN
+ FAM53B  reference            skin, sun-exposed    6691     3.13e-06               1.2e-92   0.15   0.81     shared variant (H4)                     -0.145 3.69e-20 higher activity, less balding
+   BCL2  reference            skin, sun-exposed    6084     2.29e-05               4.1e-33  0.437 0.0583 no gene-activity signal                        NaN      NaN                           NaN
+   TCHH  reference            skin, sun-exposed    4951     0.000712                 8e-58  0.255  0.118 no gene-activity signal                        NaN      NaN                           NaN
+  KLF15  reference            skin, sun-exposed    7312     1.83e-05               7.3e-80  0.623  0.028                 unclear                        NaN      NaN                           NaN
+  LAMC3  reference            skin, sun-exposed    5839     1.58e-07               8.8e-19   0.93 0.0027 different variants (H3)                      0.026   0.0519 higher activity, more balding
+   GLI2  reference            skin, sun-exposed    5445     7.91e-13               1.5e-09  0.991 0.0081 different variants (H3)                     0.0067    0.486 higher activity, more balding
+ IQGAP1  reference            skin, sun-exposed    6517     1.06e-20                 2e-41      0      1     shared variant (H4)                    -0.0886 1.86e-37 higher activity, less balding
+  TRPS1  reference            skin, sun-exposed    4819     4.63e-06               8.2e-35  0.315 0.0253 no gene-activity signal                     -0.143    0.157 higher activity, less balding
+
+atlas variants tied to TGF-beta or the scarring genes, read against the baldness GWAS:
+       snp atlas_cluster        linked_genes   motif  fine_map_prob more_open_allele  gwas_beta_more_open_allele_sd  gwas_p                     reading
+ rs6969316  Spinous.Kc_2              TWIST1 HOXD3/4          0.854                A                        -0.0248   8e-13 more open DNA, less balding
+ rs6737860       D.Fib_2 LINC01117;LINC01116 SMAD3/4          0.645                C                         0.0475   1e-51 more open DNA, more balding
+ rs7421387    Vas.Endo_2         TWIST2;ASB1     ELF         0.0753                T                        -0.0232 4.5e-13 more open DNA, less balding
+rs62189261    Vas.Endo_1              TWIST2     NaN          0.125                T                            NaN     NaN                         NaN
+rs73325511 Inf.Segment_2              TWIST1     NaN          0.988                C                        -0.0461 1.1e-15 more open DNA, less balding
+saved results/10_summary.json
+saved figs/10_coloc_panels.png

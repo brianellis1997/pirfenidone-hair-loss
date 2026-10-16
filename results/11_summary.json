@@ -1,0 +1,89 @@
+{
+ "source_paper": "PMID 40724819 (2025, Int J Mol Sci): CXCL12 drives reversible fibroimmune remodeling in AGA (mouse)",
+ "bald_scalp": {
+  "CXCL12": {
+   "lfc_g": 0.7627884521210924,
+   "p_g": 0.059204848524046776,
+   "lfc_m": 0.5782857142857161,
+   "p_m": 3.49912085578403e-05,
+   "z": 4.260285642023667,
+   "z_rank_pct": 98.99709685932963
+  },
+  "ACKR3": {
+   "lfc_g": null,
+   "p_g": null,
+   "lfc_m": null,
+   "p_m": null,
+   "z": null,
+   "z_rank_pct": null
+  },
+  "CXCR4": {
+   "lfc_g": 0.31415117084739974,
+   "p_g": 0.17643824377864456,
+   "lfc_m": 0.04714285714285893,
+   "p_m": 0.7694877390796322,
+   "z": 1.1630834120984823,
+   "z_rank_pct": 54.6582211665347
+  }
+ },
+ "fibroblast_drugs": {
+  "CXCL12": {
+   "tgfb_lfc": -1.3335215919999994,
+   "tgfb_p": 1.1520105885940086e-05,
+   "pirf_1mM_lfc": -1.915555178263035,
+   "pirf_1mM_p": 0.0003532899065302,
+   "pirf_0p1mM_lfc": -0.0006281326666677,
+   "pirf_0p1mM_p": 0.9880373640742808,
+   "nint_lfc": 0.8296461436666656,
+   "nint_p": 0.2205354343771133
+  },
+  "ACKR3": {
+   "tgfb_lfc": null,
+   "tgfb_p": null,
+   "pirf_1mM_lfc": null,
+   "pirf_1mM_p": null,
+   "pirf_0p1mM_lfc": null,
+   "pirf_0p1mM_p": null,
+   "nint_lfc": null,
+   "nint_p": null
+  },
+  "CXCR4": {
+   "tgfb_lfc": null,
+   "tgfb_p": null,
+   "pirf_1mM_lfc": null,
+   "pirf_1mM_p": null,
+   "pirf_0p1mM_lfc": null,
+   "pirf_0p1mM_p": null,
+   "nint_lfc": null,
+   "nint_p": null
+  }
+ },
+ "atlas_top_clusters": {
+  "CXCL12": {
+   "D.Fib_2": 4.41,
+   "D.Fib_4": 4.21,
+   "D.Fib_1": 3.89,
+   "D.Sheath": 2.76,
+   "Pericytes": 2.62
+  },
+  "ACKR3": {
+   "Lymph.Endo_1": 2.14,
+   "D.Fib_4": 2.06,
+   "Vas.Endo_1": 1.62,
+   "D.Fib_5": 1.56,
+   "Muscle": 1.44
+  },
+  "CXCR4": {
+   "CD4.Tc_1": 4.79,
+   "CD8_Tc_1": 4.73,
+   "CD4.Tc_2": 4.32,
+   "NK": 4.23,
+   "Treg": 3.76
+  }
+ },
+ "atlas_share_in_dermal_clusters": {
+  "CXCL12": 0.8339104469152715,
+  "ACKR3": 0.45759603819229,
+  "CXCR4": 0.005303615000322022
+ }
+}

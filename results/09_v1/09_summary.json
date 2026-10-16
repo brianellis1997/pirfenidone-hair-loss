@@ -1,0 +1,217 @@
+{
+ "models": {
+  "reviewers": [
+   "openai/gpt-4o-mini",
+   "meta-llama/llama-3.3-70b-instruct"
+  ],
+  "adjudicator": "google/gemini-2.5-flash"
+ },
+ "pubmed_frozen_on": "2026-10-04",
+ "reliability": {
+  "pairs_screened": 258,
+  "abstracts": 221,
+  "missing_abstracts": 2,
+  "reviewer_agreement": 0.8255813953488372,
+  "cohen_kappa_stance": 0.7000852470873912,
+  "cohen_kappa_relevant": 0.7544610992148466,
+  "adjudicated": 56,
+  "three_way_split": 3,
+  "quotes_found_verbatim": 0.9122257053291536,
+  "quotes_checked": 319,
+  "quotes_found_by_model": {
+   "openai/gpt-4o-mini": 0.9299363057324841,
+   "meta-llama/llama-3.3-70b-instruct": 0.872,
+   "google/gemini-2.5-flash": 0.972972972972973
+  },
+  "invalid_replies": 0
+ },
+ "grades": {
+  "C1 scarring in bald scalp": {
+   "grade": "Weak",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 2,
+   "relevant": 3,
+   "screened": 25,
+   "pubmed_hits": 202
+  },
+  "C2 DHT raises TGF-beta": {
+   "grade": "Contested",
+   "supporting_primary": 5,
+   "supporting_human": 0,
+   "contradicting": 3,
+   "mixed": 0,
+   "supporting_reviews": 3,
+   "relevant": 11,
+   "screened": 25,
+   "pubmed_hits": 78
+  },
+  "C3 TGF-beta stops hair growth": {
+   "grade": "Contested",
+   "supporting_primary": 9,
+   "supporting_human": 2,
+   "contradicting": 5,
+   "mixed": 0,
+   "supporting_reviews": 6,
+   "relevant": 20,
+   "screened": 25,
+   "pubmed_hits": 198
+  },
+  "C4 pirfenidone is antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 3,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 1,
+   "relevant": 4,
+   "screened": 25,
+   "pubmed_hits": 609
+  },
+  "C5 topical pirfenidone is tolerated": {
+   "grade": "Moderate",
+   "supporting_primary": 3,
+   "supporting_human": 2,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 1,
+   "relevant": 5,
+   "screened": 25,
+   "pubmed_hits": 60
+  },
+  "pirfenidone | antifibrotic in skin": {
+   "grade": "Weak",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 5,
+   "relevant": 5,
+   "screened": 20,
+   "pubmed_hits": 566
+  },
+  "pirfenidone | good for hair": {
+   "grade": "Weak",
+   "supporting_primary": 1,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 4,
+   "pubmed_hits": 4
+  },
+  "tranilast | antifibrotic in skin": {
+   "grade": "Strong",
+   "supporting_primary": 16,
+   "supporting_human": 2,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 2,
+   "relevant": 18,
+   "screened": 20,
+   "pubmed_hits": 86
+  },
+  "tranilast | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 0,
+   "screened": 1,
+   "pubmed_hits": 1
+  },
+  "telmisartan | antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 13,
+   "supporting_human": 0,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 15,
+   "screened": 20,
+   "pubmed_hits": 23
+  },
+  "telmisartan | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 4,
+   "pubmed_hits": 4
+  },
+  "losartan | antifibrotic in skin": {
+   "grade": "Moderate",
+   "supporting_primary": 12,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 1,
+   "relevant": 14,
+   "screened": 19,
+   "pubmed_hits": 226
+  },
+  "losartan | good for hair": {
+   "grade": "Weak",
+   "supporting_primary": 1,
+   "supporting_human": 1,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 2,
+   "screened": 2,
+   "pubmed_hits": 2
+  },
+  "nintedanib | antifibrotic in skin": {
+   "grade": "Weak",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 2,
+   "relevant": 2,
+   "screened": 19,
+   "pubmed_hits": 470
+  },
+  "nintedanib | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 2,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 2,
+   "screened": 3,
+   "pubmed_hits": 3
+  },
+  "galunisertib | antifibrotic in skin": {
+   "grade": "Strong",
+   "supporting_primary": 17,
+   "supporting_human": 1,
+   "contradicting": 0,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 18,
+   "screened": 20,
+   "pubmed_hits": 24
+  },
+  "galunisertib | good for hair": {
+   "grade": "None",
+   "supporting_primary": 0,
+   "supporting_human": 0,
+   "contradicting": 1,
+   "mixed": 0,
+   "supporting_reviews": 0,
+   "relevant": 1,
+   "screened": 1,
+   "pubmed_hits": 1
+  }
+ }
+}

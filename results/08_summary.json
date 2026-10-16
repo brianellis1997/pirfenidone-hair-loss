@@ -1,0 +1,694 @@
+{
+ "clusters": 41,
+ "expressed_genes": 4867,
+ "sets": {
+  "TGF-beta-driven bald genes": {
+   "genes_in_atlas": "22/23",
+   "top_clusters": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.87,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.69,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.65,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.43,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_5",
+     "score": 1.18,
+     "q": 0.00059
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_1",
+    "D.Fib_2",
+    "D.Fib_3",
+    "D.Fib_4",
+    "D.Fib_5",
+    "D.Sheath",
+    "D.Papilla",
+    "Pericytes",
+    "Plasma"
+   ],
+   "compartment_mean_score": {
+    "Follicle dermis": 1.54,
+    "Dermal fibroblasts": 1.39,
+    "Muscle and pericytes": 0.35,
+    "Melanocytes": 0.03,
+    "Vessels": -0.11,
+    "Immune": -0.3,
+    "Epidermis": -0.57,
+    "Glands": -0.57,
+    "Follicle epithelium": -0.58
+   },
+   "peak_cluster_compartment_counts": {
+    "Dermal fibroblasts": 7,
+    "Follicle dermis": 7,
+    "Immune": 5,
+    "Melanocytes": 1,
+    "Vessels": 1,
+    "Muscle and pericytes": 1
+   }
+  },
+  "Pirfenidone-lowered (1 mM)": {
+   "genes_in_atlas": "10/11",
+   "top_clusters": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.89,
+     "q": 0.002
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.66,
+     "q": 0.002
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.44,
+     "q": 0.0027
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.16,
+     "q": 0.022
+    },
+    {
+     "cluster": "D.Fib_5",
+     "score": 1.11,
+     "q": 0.024
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_1",
+    "D.Fib_2",
+    "D.Fib_3",
+    "D.Fib_4",
+    "D.Fib_5",
+    "D.Sheath",
+    "D.Papilla"
+   ],
+   "compartment_mean_score": {
+    "Dermal fibroblasts": 1.33,
+    "Follicle dermis": 1.3,
+    "Muscle and pericytes": 0.51,
+    "Melanocytes": 0.08,
+    "Vessels": -0.05,
+    "Immune": -0.34,
+    "Epidermis": -0.49,
+    "Follicle epithelium": -0.51,
+    "Glands": -0.53
+   },
+   "peak_cluster_compartment_counts": {
+    "Dermal fibroblasts": 4,
+    "Immune": 3,
+    "Follicle dermis": 2,
+    "Vessels": 1
+   }
+  },
+  "Scarring genes up in bald scalp": {
+   "genes_in_atlas": "16/16",
+   "top_clusters": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.96,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.69,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.64,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.36,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_1",
+     "score": 1.34,
+     "q": 0.00059
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_1",
+    "D.Fib_2",
+    "D.Fib_3",
+    "D.Fib_4",
+    "D.Fib_5",
+    "D.Sheath",
+    "D.Papilla",
+    "Pericytes",
+    "Plasma"
+   ],
+   "compartment_mean_score": {
+    "Dermal fibroblasts": 1.52,
+    "Follicle dermis": 1.5,
+    "Muscle and pericytes": 0.69,
+    "Melanocytes": -0.11,
+    "Vessels": -0.23,
+    "Immune": -0.3,
+    "Epidermis": -0.6,
+    "Follicle epithelium": -0.61,
+    "Glands": -0.65
+   },
+   "peak_cluster_compartment_counts": {
+    "Dermal fibroblasts": 6,
+    "Follicle dermis": 5,
+    "Immune": 3,
+    "Muscle and pericytes": 2
+   }
+  },
+  "Immune genes up in bald scalp": {
+   "genes_in_atlas": "7/7",
+   "top_clusters": [
+    {
+     "cluster": "D.Fib_2",
+     "score": 0.94,
+     "q": 0.045
+    },
+    {
+     "cluster": "D.Fib_4",
+     "score": 0.92,
+     "q": 0.13
+    },
+    {
+     "cluster": "D.Fib_1",
+     "score": 0.87,
+     "q": 0.13
+    },
+    {
+     "cluster": "Vas.Endo_1",
+     "score": 0.83,
+     "q": 0.22
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.77,
+     "q": 0.15
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_2"
+   ],
+   "compartment_mean_score": {
+    "Dermal fibroblasts": 0.83,
+    "Follicle dermis": 0.45,
+    "Vessels": 0.31,
+    "Immune": 0.04,
+    "Muscle and pericytes": -0.12,
+    "Melanocytes": -0.38,
+    "Follicle epithelium": -0.61,
+    "Epidermis": -0.62,
+    "Glands": -0.63
+   },
+   "peak_cluster_compartment_counts": {
+    "Immune": 3,
+    "Dermal fibroblasts": 3,
+    "Vessels": 1
+   }
+  },
+  "Hair-loss genetics, TGF-beta/scarring": {
+   "genes_in_atlas": "5/5",
+   "top_clusters": [
+    {
+     "cluster": "Pericytes",
+     "score": 1.02,
+     "q": 0.6
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.99,
+     "q": 0.6
+    },
+    {
+     "cluster": "D.Fib_4",
+     "score": 0.93,
+     "q": 0.6
+    },
+    {
+     "cluster": "Melanocytes_2",
+     "score": 0.68,
+     "q": 0.88
+    },
+    {
+     "cluster": "D.Fib_1",
+     "score": 0.67,
+     "q": 0.74
+    }
+   ],
+   "clusters_q_lt_0.05": [],
+   "compartment_mean_score": {
+    "Dermal fibroblasts": 0.76,
+    "Muscle and pericytes": 0.74,
+    "Follicle dermis": 0.58,
+    "Vessels": 0.17,
+    "Melanocytes": 0.02,
+    "Immune": -0.11,
+    "Follicle epithelium": -0.5,
+    "Epidermis": -0.58,
+    "Glands": -0.65
+   },
+   "peak_cluster_compartment_counts": {
+    "Dermal fibroblasts": 2,
+    "Immune": 1,
+    "Vessels": 1,
+    "Muscle and pericytes": 1
+   }
+  },
+  "Hair-loss genetics, all strong (>=0.5)": {
+   "genes_in_atlas": "66/142",
+   "top_clusters": [
+    {
+     "cluster": "D.Papilla",
+     "score": 1.06,
+     "q": 0.001
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.71,
+     "q": 0.001
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 0.65,
+     "q": 0.001
+    },
+    {
+     "cluster": "D.Fib_5",
+     "score": 0.62,
+     "q": 0.0033
+    },
+    {
+     "cluster": "Melanocytes_2",
+     "score": 0.5,
+     "q": 0.99
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_1",
+    "D.Fib_2",
+    "D.Fib_3",
+    "D.Fib_4",
+    "D.Fib_5",
+    "D.Sheath",
+    "D.Papilla"
+   ],
+   "compartment_mean_score": {
+    "Follicle dermis": 0.86,
+    "Dermal fibroblasts": 0.52,
+    "Melanocytes": 0.32,
+    "Muscle and pericytes": 0.18,
+    "Vessels": -0.05,
+    "Follicle epithelium": -0.12,
+    "Immune": -0.19,
+    "Glands": -0.24,
+    "Epidermis": -0.28
+   },
+   "peak_cluster_compartment_counts": {
+    "Immune": 19,
+    "Melanocytes": 14,
+    "Dermal fibroblasts": 11,
+    "Follicle dermis": 8,
+    "Follicle epithelium": 5,
+    "Muscle and pericytes": 4,
+    "Vessels": 3,
+    "Glands": 1,
+    "Epidermis": 1
+   }
+  },
+  "Bald-up top 200": {
+   "genes_in_atlas": "158/200",
+   "top_clusters": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.05,
+     "q": 0.00051
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.92,
+     "q": 0.00051
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 0.79,
+     "q": 0.00051
+    },
+    {
+     "cluster": "D.Fib_2",
+     "score": 0.77,
+     "q": 0.00051
+    },
+    {
+     "cluster": "D.Fib_1",
+     "score": 0.7,
+     "q": 0.00051
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "D.Fib_1",
+    "D.Fib_2",
+    "D.Fib_3",
+    "D.Fib_4",
+    "D.Fib_5",
+    "D.Sheath",
+    "D.Papilla",
+    "Plasma",
+    "Mast",
+    "cDC2",
+    "M2.macs_1",
+    "M2.macs_2",
+    "CLEC9a.DC"
+   ],
+   "compartment_mean_score": {
+    "Dermal fibroblasts": 0.82,
+    "Follicle dermis": 0.7,
+    "Melanocytes": 0.17,
+    "Vessels": 0.09,
+    "Muscle and pericytes": 0.07,
+    "Immune": -0.09,
+    "Glands": -0.5,
+    "Epidermis": -0.5,
+    "Follicle epithelium": -0.52
+   },
+   "peak_cluster_compartment_counts": {
+    "Immune": 60,
+    "Dermal fibroblasts": 45,
+    "Follicle dermis": 16,
+    "Melanocytes": 14,
+    "Vessels": 13,
+    "Muscle and pericytes": 4,
+    "Follicle epithelium": 3,
+    "Epidermis": 2,
+    "Glands": 1
+   }
+  },
+  "Bald-down top 200": {
+   "genes_in_atlas": "111/200",
+   "top_clusters": [
+    {
+     "cluster": "Inf.Segment",
+     "score": 1.62,
+     "q": 0.00059
+    },
+    {
+     "cluster": "Sebaceous",
+     "score": 0.57,
+     "q": 0.00059
+    },
+    {
+     "cluster": "Spinous.Kc_3",
+     "score": 0.56,
+     "q": 0.00059
+    },
+    {
+     "cluster": "Spinous.Kc_2",
+     "score": 0.5,
+     "q": 0.00059
+    },
+    {
+     "cluster": "Cyc.Kc_1",
+     "score": 0.43,
+     "q": 0.00091
+    }
+   ],
+   "clusters_q_lt_0.05": [
+    "Basal.Kc_1",
+    "Spinous.Kc_1",
+    "Spinous.Kc_2",
+    "Spinous.Kc_3",
+    "Cyc.Kc_1",
+    "Infundibulum",
+    "Inf.Segment",
+    "Sebaceous",
+    "Eccrine"
+   ],
+   "compartment_mean_score": {
+    "Follicle epithelium": 0.68,
+    "Glands": 0.43,
+    "Epidermis": 0.42,
+    "Melanocytes": 0.16,
+    "Muscle and pericytes": 0.16,
+    "Follicle dermis": 0.04,
+    "Dermal fibroblasts": 0.01,
+    "Vessels": -0.08,
+    "Immune": -0.36
+   },
+   "peak_cluster_compartment_counts": {
+    "Follicle epithelium": 29,
+    "Epidermis": 15,
+    "Immune": 15,
+    "Glands": 11,
+    "Vessels": 11,
+    "Melanocytes": 10,
+    "Muscle and pericytes": 9,
+    "Dermal fibroblasts": 7,
+    "Follicle dermis": 4
+   }
+  }
+ },
+ "robustness": {
+  "no immune clusters": {
+   "TGF-beta-driven bald genes": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.56,
+     "q": 0.00043
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.38,
+     "q": 0.00043
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.32,
+     "q": 0.00043
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.13,
+     "q": 0.00043
+    }
+   ],
+   "Pirfenidone-lowered (1 mM)": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.58,
+     "q": 0.00087
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.38,
+     "q": 0.00087
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.14,
+     "q": 0.00087
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 0.89,
+     "q": 0.07
+    }
+   ],
+   "Hair-loss genetics, all strong (>=0.5)": [
+    {
+     "cluster": "D.Papilla",
+     "score": 1.02,
+     "q": 0.0017
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.61,
+     "q": 0.0017
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 0.58,
+     "q": 0.0017
+    },
+    {
+     "cluster": "D.Fib_5",
+     "score": 0.53,
+     "q": 0.01
+    }
+   ]
+  },
+  "looser cutoff (max >= 0.5)": {
+   "TGF-beta-driven bald genes": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.79,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.63,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.56,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.35,
+     "q": 0.00059
+    }
+   ],
+   "Pirfenidone-lowered (1 mM)": [
+    {
+     "cluster": "D.Fib_4",
+     "score": 1.71,
+     "q": 0.0014
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 1.55,
+     "q": 0.0014
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 1.26,
+     "q": 0.0014
+    },
+    {
+     "cluster": "D.Papilla",
+     "score": 1.01,
+     "q": 0.078
+    }
+   ],
+   "Hair-loss genetics, all strong (>=0.5)": [
+    {
+     "cluster": "D.Papilla",
+     "score": 1.09,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Sheath",
+     "score": 0.7,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_3",
+     "score": 0.69,
+     "q": 0.00059
+    },
+    {
+     "cluster": "D.Fib_5",
+     "score": 0.67,
+     "q": 0.00059
+    }
+   ]
+  }
+ },
+ "AR_top_clusters": {
+  "Isthmus": 1.03,
+  "D.Fib_2": 0.84,
+  "D.Fib_5": 0.71,
+  "D.Fib_3": 0.65,
+  "D.Fib_4": 0.62
+ },
+ "AR_vs_tgfb_driven_module": {
+  "spearman_rho": 0.13512089016263792,
+  "p": 0.3996132764732797
+ },
+ "key_gene_peak_cluster": {
+  "AR": "Isthmus",
+  "SRD5A1": "Isthmus",
+  "SRD5A2": "D.Papilla",
+  "TGFB1": "CD4.Tc_1",
+  "TGFB2": "D.Papilla",
+  "TGFBR1": "D.Sheath",
+  "TGFBR2": "Lymph.Endo_1",
+  "SMAD3": "Vas.Endo_4",
+  "TWIST1": "D.Fib_1",
+  "TWIST2": "D.Fib_3",
+  "PDGFA": "Pericytes",
+  "PDGFRA": "D.Fib_3",
+  "PDGFRB": "Pericytes",
+  "DKK1": "D.Fib_4",
+  "SFRP2": "D.Fib_4",
+  "IL6": "Vas.Endo_1",
+  "COL1A1": "D.Sheath",
+  "COL3A1": "D.Sheath",
+  "LOX": "D.Fib_4",
+  "SPARC": "D.Sheath",
+  "TIMP1": "M2.macs_2",
+  "TGFBI": "M2.macs_1",
+  "ACTA2": "Muscle",
+  "CORIN": "D.Fib_4",
+  "SOX2": "Melanocytes_2"
+ },
+ "aga_variants": {
+  "n": 47,
+  "by_compartment": {
+   "Immune": 11,
+   "Follicle epithelium": 10,
+   "Epidermis": 6,
+   "Dermal fibroblasts": 6,
+   "Vessels": 6,
+   "Follicle dermis": 4,
+   "Muscle and pericytes": 3,
+   "Glands": 1
+  },
+  "tgfb_or_scarring_linked": [
+   {
+    "snp": "rs6969316",
+    "cluster": "Spinous.Kc_2",
+    "fm_probs": 0.8543,
+    "top_motifs": "HOXD3/4",
+    "linkedGenes": "TWIST1"
+   },
+   {
+    "snp": "rs6737860",
+    "cluster": "D.Fib_2",
+    "fm_probs": 0.6455,
+    "top_motifs": "SMAD3/4",
+    "linkedGenes": "LINC01117;LINC01116"
+   },
+   {
+    "snp": "rs7421387",
+    "cluster": "Vas.Endo_2",
+    "fm_probs": 0.0753,
+    "top_motifs": "ELF",
+    "linkedGenes": "TWIST2;ASB1"
+   },
+   {
+    "snp": "rs62189261",
+    "cluster": "Vas.Endo_1",
+    "fm_probs": 0.1248,
+    "top_motifs": NaN,
+    "linkedGenes": "TWIST2"
+   },
+   {
+    "snp": "rs73325511",
+    "cluster": "Inf.Segment_2",
+    "fm_probs": 0.9879,
+    "top_motifs": NaN,
+    "linkedGenes": "TWIST1"
+   }
+  ]
+ }
+}

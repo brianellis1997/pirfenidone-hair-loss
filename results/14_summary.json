@@ -1,0 +1,55 @@
+{
+ "oral_cmax_mM": {
+  "fed, capsules": 0.035417341539790516,
+  "fed, tablet": 0.04124824532987798,
+  "fasted, capsules": 0.06748731238527157,
+  "fasted, tablet": 0.06802721088435373
+ },
+ "oral_source": "PMID 28808905 (Pan 2017, Table 2 of the PMC full text): single 801 mg dose, the clinical dose taken 3 times a day; geometric mean Cmax 6,560 and 7,640 ng/mL fed, 12,500 and 12,600 ng/mL fasted (capsules, tablet). PMID 17906160 (Shi 2007, 200 to 600 mg doses) reports 9.2 mg/L fed and 13.0 mg/L fasted, the same range",
+ "cell_doses_mM": {
+  "no effect (GSE178518, 20 ug/mL)": 0.10797969981643452,
+  "reversal (GSE226249)": 1.0
+ },
+ "oral_gap_to_1mM_x": [
+  14.700000000000001,
+  28.23475609756098
+ ],
+ "topical_eye_site_mM": {
+  "conjunctiva": 51.938235611705,
+  "cornea": 52.046215311521436,
+  "sclera": 11.499838030450276
+ },
+ "eye_source": "PMID 21866212: one 50 uL drop of 0.5% pirfenidone on the rabbit eye (250 ug); tissue Cmax in mg/g",
+ "skin_gel_dermis_average_estimates": [
+  {
+   "formulation": "liposomal hydrogel, pig ear skin (PMID 26114208)",
+   "flux_ug_cm2_h": 10.9,
+   "dermis_average_mM_low": 0.024,
+   "dermis_average_mM_high": 0.074
+  },
+  {
+   "formulation": "8% nanoemulsion gel, pig skin, 404.9 ug/cm2 over 24 h (PMID 33006045)",
+   "flux_ug_cm2_h": 16.9,
+   "dermis_average_mM_low": 0.036,
+   "dermis_average_mM_high": 0.114
+  },
+  {
+   "formulation": "plain pirfenidone, about 5x below the liposomal gel (PMID 26114208)",
+   "flux_ug_cm2_h": 2.2,
+   "dermis_average_mM_low": 0.005,
+   "dermis_average_mM_high": 0.015
+  }
+ ],
+ "skin_blood_flow_ml_h_cm2": [
+  0.8,
+  2.5
+ ],
+ "blood_flow_assumption": "assumption: resting skin gets about 250 mL/min across about 1.8 m2, so about 0.8 mL/h per cm2; the scalp is better perfused, so the range goes up to about 3x that",
+ "clinical_topical_evidence": [
+  "PMID 21659848: 8% gel 3x/day for 6 months improved pediatric hypertrophic burn scars, no serious adverse effects",
+  "PMID 25533576: pirfenidone gel in localized scleroderma, phase II",
+  "PMID 30115530: topical pirfenidone sped healing of skin graft donor sites"
+ ],
+ "antifibrotic_mechanism_at_clinical_levels": "PMID 36585256 (Ma 2023, the paper behind GSE226249): pirfenidone inhibits MRTF activation in primary human lung fibroblasts with IC50 50 to 150 uM and > 90% maximal inhibition; patients' peak concentration is < 100 uM",
+ "verdict": "Neither route clearly reaches the 1 mM cell-culture level as a whole-dermis average (about 0.01 to 0.1 mM by flux / blood flow, the same order as the pill). But the cell-culture level is probably not the bar: the pill slows lung fibrosis in patients at 0.035 to 0.068 mM (the 801 mg dose, fed to fasted), 15 to 28x below it. A gel concentrates drug at the surface and in follicle openings, where the upper-follicle scarring sits (site tissue reached tens of mM on the rabbit eye), and 8% gel has clinical antifibrotic effects in human skin. The real test is a dose-response in human scalp follicles (about 0.03 to 3 mM), which the proposed organ-culture experiment should include."
+}

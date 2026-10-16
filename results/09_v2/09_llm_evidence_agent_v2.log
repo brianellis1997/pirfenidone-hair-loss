@@ -1,0 +1,80 @@
+PubMed set frozen on 2026-10-04
+
+agent reliability: {
+ "pairs_screened": 487,
+ "abstracts": 423,
+ "missing_abstracts": 2,
+ "reviewer_agreement": 0.8336755646817249,
+ "cohen_kappa_stance": 0.6739135825941756,
+ "cohen_kappa_relevant": 0.6823609214794459,
+ "adjudicated": 93,
+ "three_way_split": 5,
+ "quotes_found_verbatim": 0.9508547008547008,
+ "quotes_checked": 468,
+ "quotes_found_by_model": {
+  "meta-llama/llama-3.3-70b-instruct": 0.896551724137931,
+  "deepseek/deepseek-chat-v3.1": 0.9780701754385965,
+  "google/gemini-2.5-flash": 1.0
+ },
+ "invalid_replies": 0,
+ "shadow_agreement_with_final": 0.7885010266940452,
+ "shadow_kappa_vs_final": 0.6217176211520189
+}
+
+                              claim_id     grade  supporting_primary  supporting_human  contradicting  mixed  supporting_reviews  relevant  screened  pubmed_hits
+             C1 scarring in bald scalp    Strong                   4                 2              1      0                   6        12        60          202
+                C2 DHT raises TGF-beta    Strong                  22                 1              3      0                   5        30        60           78
+         C3 TGF-beta stops hair growth    Strong                  33                12              3      0                   6        43        60          198
+C4 pirfenidone is antifibrotic in skin  Moderate                   8                 0              0      0                   0         8        60          240
+   C5 topical pirfenidone is tolerated Contested                   4                 3              4      0                   0         8        60           60
+    pirfenidone | antifibrotic in skin    Strong                   6                 2              0      0                   0         6        40          202
+           pirfenidone | good for hair      Weak                   1                 0              0      0                   0         1         4            4
+      tranilast | antifibrotic in skin    Strong                  29                 8              0      0                   2        32        40           51
+             tranilast | good for hair      None                   0                 0              0      0                   0         0         1            1
+    telmisartan | antifibrotic in skin      Weak                   0                 0              0      0                   1         1         3            3
+           telmisartan | good for hair      None                   0                 0              0      0                   0         0         4            4
+       losartan | antifibrotic in skin    Strong                  21                 4              0      1                   2        25        39           63
+              losartan | good for hair      Weak                   1                 1              1      0                   0         2         2            2
+     nintedanib | antifibrotic in skin  Moderate                   3                 0              0      0                   0         3        39          250
+            nintedanib | good for hair      None                   0                 0              1      0                   0         1         3            3
+   galunisertib | antifibrotic in skin  Moderate                   7                 0              0      0                   0         8        11           11
+          galunisertib | good for hair      None                   0                 0              1      0                   0         1         1            1
+
+audit accuracy: {
+ "n": 60,
+ "n_clear": 43,
+ "accuracy": {
+  "pipeline": {
+   "agree_stratum": 0.8,
+   "disagree_stratum": 0.7,
+   "clear_items_only": 0.813953488372093,
+   "population_weighted": 0.7832535885167464
+  },
+  "meta-llama/llama-3.3-70b-instruct": {
+   "agree_stratum": 0.8,
+   "disagree_stratum": 0.7666666666666667,
+   "clear_items_only": 0.813953488372093,
+   "population_weighted": 0.7944178628389155
+  },
+  "deepseek/deepseek-chat-v3.1": {
+   "agree_stratum": 0.8,
+   "disagree_stratum": 0.2,
+   "clear_items_only": 0.5581395348837209,
+   "population_weighted": 0.6995215311004784
+  },
+  "openai/gpt-4o-mini (shadow, no vote)": {
+   "agree_stratum": 0.8,
+   "disagree_stratum": 0.26666666666666666,
+   "clear_items_only": 0.6046511627906976,
+   "population_weighted": 0.7106858054226475
+  },
+  "v1 vs v2 on audit pairs both versions labeled": {
+   "n": 8,
+   "v1": 0.5,
+   "v2": 0.875
+  }
+ },
+ "adjudicator_accuracy_on_items_it_saw": 0.7096774193548387,
+ "auditor": "Claude Opus 5.5, reading each abstract blind to the model labels"
+}
+saved results/09_summary.json

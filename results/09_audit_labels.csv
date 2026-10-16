@@ -1,0 +1,41 @@
+audit_id,audit_stance,audit_type,audit_confidence,note
+31,none,human_cells,clear,papilla-endothelial crosstalk; no fibrosis
+46,none,human_patients_or_tissue,clear,"pediatric AGA: perifollicular inflammation, not fibrosis"
+60,none,review,clear,regenerative medicine review
+83,none,human_cells,clear,balding papilla cells secrete more TGF-beta under oxidative stress; no androgen test
+84,none,animal,ambiguous,treatment lowered TGF-beta1 in a testosterone model; testosterone's own effect not stated
+91,none,human_cells,ambiguous,light therapy suppressed TGF-beta signaling in DHT-treated cells; DHT's effect not stated
+92,none,review,ambiguous,fibrosis-in-AGA review; androgen to TGF-beta not stated
+99,none,animal,ambiguous,exosomes suppress TGF-beta/Smad; DHT's effect on TGF-beta not stated
+109,none,review,clear,miRNA review
+112,none,human_cells,clear,extract inhibits H2O2-induced TGF-beta; testosterone used only to measure DHT production
+113,supports,animal,clear,DHT increased TGF-beta in the mouse model and papilla cells
+115,none,human_cells,clear,plant extract; no androgen test
+119,none,human_cells,clear,extract lowers TGF-beta1; androgen link is background only
+149,none,animal,ambiguous,TGF-beta2 used to make ORS cells apoptotic; keratin drives regrowth
+167,none,animal,ambiguous,cyclosporin hair growth with lower TGF-beta; correlational
+174,none,animal,clear,activin knock-in; no TGF-beta signaling direction
+177,none,human_patients_or_tissue,clear,"TGF-alpha, not TGF-beta"
+185,none,review,clear,CTD-ILD lung guideline
+187,none,review,clear,ILD review
+191,supports,human_cells,clear,pirfenidone cut TGF-beta1-induced myofibroblast features and collagen I/III in human dermal fibroblasts
+206,none,review,clear,SSc-ILD review
+239,none,human_cells,ambiguous,pirfenidone arrests skin fibroblast proliferation; no TGF-beta or collagen readout
+250,none,animal,ambiguous,"pirfenidone film on mouse wounds: less collagen, faster healing; no tolerability statement"
+265,none,animal,clear,"inhaled relaxin vs oral pirfenidone, lung"
+273,none,animal,clear,"glaucoma bleb, eye, not skin"
+288,none,review,ambiguous,"commentary on topical efficacy, not tolerability"
+298,none,animal,clear,"topical on the larynx, not skin"
+330,none,human_cells,ambiguous,same paper as 239; proliferation only
+374,none,human_cells,clear,"corneal fibroblasts, eye"
+377,none,human_patients_or_tissue,ambiguous,"cutaneous sarcoidosis remission; granulomas, not fibrosis"
+378,supports,human_cells,clear,"tranilast blocks TGF-beta1-stimulated collagen in human skin, scleroderma and keloid fibroblasts"
+381,none,animal,clear,"corneal haze, eye"
+382,none,animal,clear,diabetic heart
+391,none,other,clear,nitrosamine melanoma essay; nothing on hair
+430,mixed,animal,clear,"oral losartan in pig burns: fewer myofibroblasts in partial-thickness wounds, worse scars in full-thickness"
+444,none,human_cells,ambiguous,senolytic in dermal fibroblasts; the collagen result is lung
+455,none,animal,clear,"dermatitis model, no fibrosis readout"
+461,none,human_cells,clear,lung fibroblast spheroid assay
+465,none,review,clear,RA-ILD review
+485,none,human_cells,clear,"muscle progenitor cells, heterotopic ossification"

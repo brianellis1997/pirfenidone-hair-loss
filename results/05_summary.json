@@ -1,0 +1,67 @@
+{
+ "tgfb_enrichment": {
+  "overlap": 23,
+  "bald_up_tested": 141,
+  "background_rate": 0.07694805194805195,
+  "odds_ratio": 2.4819816252178044,
+  "p": 0.00034940443920243575,
+  "driven_genes": [
+   "ABCA1",
+   "AEBP1",
+   "CALCOCO2",
+   "COL1A1",
+   "COL1A2",
+   "COL3A1",
+   "COL5A1",
+   "COL6A3",
+   "CSRP2",
+   "FBLN5",
+   "FSTL1",
+   "HERPUD1",
+   "LOX",
+   "MFAP4",
+   "MMP2",
+   "OLFML3",
+   "P4HA1",
+   "PDGFRB",
+   "PTGS1",
+   "SPARC",
+   "SSR2",
+   "TGFBI",
+   "TIMP1"
+  ],
+  "rho_all_bald_genes": -0.08995691394851876
+ },
+ "group_sizes": {
+  "tgfb_veh": 3,
+  "veh_veh": 3,
+  "tgfb_pirf": 3,
+  "tgfb_nint": 3
+ },
+ "drugs": {
+  "pirfenidone_GSE178518": {
+   "rho": 0.05040261882301146,
+   "p": 0.16017150338205965,
+   "driven_lowered_sig": 0.043478260869565216,
+   "driven_median_change": 0.022841885333332534
+  },
+  "nintedanib_GSE178518": {
+   "rho": 0.02804036678128768,
+   "p": 0.43479296819672025,
+   "driven_lowered_sig": 0.08695652173913043,
+   "driven_median_change": -0.34207487000000114
+  },
+  "saracatinib_GSE178518": {
+   "rho": -0.01735769250973966,
+   "p": 0.6288046283514421,
+   "driven_lowered_sig": 0.08695652173913043,
+   "driven_median_change": -0.5549052816666666
+  },
+  "pirfenidone_1mM_GSE226249": {
+   "rho": -0.15713066185458416,
+   "p": 3.851252931031011e-06,
+   "driven_lowered_sig": 0.4782608695652174,
+   "driven_median_change": -0.26226722430458044
+  }
+ }
+}
