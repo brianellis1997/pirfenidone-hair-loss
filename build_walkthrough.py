@@ -1,4 +1,4 @@
-"""Builds HRP_Code_Walkthrough.ipynb: a guided tour of the 15 analysis scripts, with each track's core code, saved
+"""Builds HRP_Code_Walkthrough.ipynb: a guided tour of the 16 analysis scripts, with each track's core code, saved
 results and figure, plus three live recomputations. Execute it afterwards with nbconvert (see the bottom of this file)."""
 import pathlib
 
@@ -18,7 +18,7 @@ def code(text):
 
 
 md(r"""
-# High-risk Project code: testing pirfenidone for pattern hair loss with an audited LLM evidence agent
+# High-risk Project code: an audited LLM evidence agent for drug repurposing, tested on pirfenidone for pattern hair loss
 **Brian Ellis · A I 380H AI in Healthcare · Fall 2026**
 
 ### AI disclosure
@@ -28,9 +28,11 @@ anything went in. The evidence agent itself runs on Llama 3.3 70B, DeepSeek V3.1
 through OpenRouter.
 
 ### What this notebook does
-The analysis is 15 numbered scripts in `analysis/`, one per research track, plus shared loaders in `src/`. This notebook
-walks through them in order. For each track it states the question, prints the core code straight from the script, and
-shows the saved results and the report figure. Three results are recomputed live from the intermediate tables (the FDA
+The analysis is 16 numbered scripts in `analysis/`, one per research track, plus shared loaders in `src/`. The notebook
+starts with the project's main AI component: the LLM evidence agent (Track I), its blind audits, and version 4, which lets
+Llama break ties and was scored on a fresh audit (script 16). The remaining tracks then check the agent's grades with
+public data it never read. For each one it states the question, prints the core code straight from the script, and shows
+the saved results and the report figure. Three results are recomputed live from the intermediate tables (the FDA
 comparator ratio, the evidence agent's grades and the dose arithmetic), to show the saved numbers come from the code.
 
 It doesn't re-query the live APIs. PubMed counts drift as papers are added, so a live re-query would no longer match the
@@ -40,11 +42,11 @@ evidence agent replays every LLM reply from its cache, so a rebuild needs no API
 | Path | What's there |
 |---|---|
 | `analysis/00_download_data.sh` | Downloads all public data into `data/` |
-| `analysis/01_*.py` to `15_*.py` | One script per track (A to N), then the report figures |
+| `analysis/01_*.py` to `16_*.py` | One script per track (A to N), the report figures (15), and the version 4 audit (16) |
 | `src/signatures.py`, `src/drug_scoring.py` | GEO loaders, differential expression, drug scoring |
 | `data/llm_agent/` | The frozen PubMed set and every cached LLM reply |
 | `results/` | Tables, plus `NN_summary.json` with each track's key numbers |
-| `figs/report/` | The nine report figures |
+| `figs/report/` | The report figures |
 
 Environment: conda env `394_HW1` (Python 3.11, numpy 1.26, pandas, scipy, statsmodels, scikit-learn, pysam, matplotlib).
 """)
@@ -86,6 +88,59 @@ def fig(name, width=900):
 
 
 print("python", platform.python_version(), "| numpy", np.__version__, "| pandas", pd.__version__, "| scipy", scipy.__version__)
+""")
+
+md(r"""
+## 1. The LLM evidence agent (Track I)
+Two reviewer models label every claim-abstract pair independently (stance, evidence type, verbatim quote); a tiebreaker
+decides disagreements; grades come from rules fixed in code. **Live check:** the grades are recomputed below from the saved
+labels with the script's own `grade` function.
+""")
+code(r"""
+show_code("analysis/09_llm_evidence_agent.py", ["REVIEWERS", "ADJUDICATOR", "SHADOW", "grade"])
+src = (ROOT / "analysis/09_llm_evidence_agent.py").read_text()
+node = next(n for n in ast.parse(src).body if getattr(n, "name", None) == "grade")
+ns = {}
+exec(ast.get_source_segment(src, node), ns)
+labels = pd.read_csv(RESULTS / "09_evidence_labels.csv")
+saved = pd.read_csv(RESULTS / "09_claim_grades.csv", keep_default_na=False).set_index("claim_id")
+live = pd.DataFrame({cid: ns["grade"](rows) for cid, rows in labels.groupby("claim_id")}).T
+check = saved[["grade", "supporting_primary", "supporting_human", "contradicting"]].join(live[["grade"]], rsuffix="_live")
+display(check)
+print("live grades match the saved ones:", bool((check.grade == check.grade_live).all()))
+""")
+code(r"""
+a = summary("09")["audit"]
+acc = pd.DataFrame(a["accuracy"]).T[["population_weighted", "agree_stratum", "disagree_stratum", "clear_items_only"]]
+display(acc.round(3))
+print("held-out pairs:", a["n"], "| reference labels:", a["auditor"])
+fig("fig8_agent_audit")
+""")
+
+md(r"""
+## 2. Version 4: Llama breaks ties, tested on a fresh audit (script 16)
+The version 3 audit found Llama right on 80% of the reviewer disagreements and the Gemini tiebreaker on 50%. Switching the
+rule on that audit would tune on the test, so script 16 draws a fresh audit: 40 pairs that exclude all 155 PubMed IDs seen in
+development or in the earlier audit. The reference labels come from a separate Claude (Opus 5.5) instance that only saw
+the claim and the abstract. Version 4 only changes the tie rule, so it is scored from the stored labels with no model calls.
+""")
+code(r"""
+show_from("analysis/16_llama_tiebreak_fresh_audit.py", "if REF.exists():")
+s = summary("16")
+display(pd.DataFrame(s["accuracy"]).T.round(3))
+print("disagreements:", json.dumps(s["disagreements_mcnemar"]))
+print("reference labels:", s["auditor"])
+""")
+code(r"""
+c = pd.read_csv(RESULTS / "16_fresh_audit_comparison.csv")
+display(c[c.resolution != "agree"][["claim_id", "audit_stance", "final", "v4", "A_stance", "B_stance", "C_stance", "note"]])
+fig("fig10_agent_workflow")
+""")
+
+md(r"""
+## Independent checks on public data
+The remaining tracks test the agent's grades with data it never read. They keep their research-log letters, A to N, with
+Track I being the agent above.
 """)
 
 md(r"""
@@ -196,33 +251,6 @@ for name in ["TGF-beta-driven bald genes", "Pirfenidone-lowered (1 mM)", "Hair-l
     top = ", ".join(f"{c['cluster']} {c['score']:+.2f} (q {c['q']:.3f})" for c in s["sets"][name]["top_clusters"][:4])
     print(f"{name}: {top}")
 fig("fig5_scalp_localization")
-""")
-
-md(r"""
-## I. The LLM evidence agent
-Two reviewer models label every claim-abstract pair independently (stance, evidence type, verbatim quote); a tiebreaker
-decides disagreements; grades come from rules fixed in code. **Live check:** the grades are recomputed below from the saved
-labels with the script's own `grade` function.
-""")
-code(r"""
-show_code("analysis/09_llm_evidence_agent.py", ["REVIEWERS", "ADJUDICATOR", "SHADOW", "grade"])
-src = (ROOT / "analysis/09_llm_evidence_agent.py").read_text()
-node = next(n for n in ast.parse(src).body if getattr(n, "name", None) == "grade")
-ns = {}
-exec(ast.get_source_segment(src, node), ns)
-labels = pd.read_csv(RESULTS / "09_evidence_labels.csv")
-saved = pd.read_csv(RESULTS / "09_claim_grades.csv", keep_default_na=False).set_index("claim_id")
-live = pd.DataFrame({cid: ns["grade"](rows) for cid, rows in labels.groupby("claim_id")}).T
-check = saved[["grade", "supporting_primary", "supporting_human", "contradicting"]].join(live[["grade"]], rsuffix="_live")
-display(check)
-print("live grades match the saved ones:", bool((check.grade == check.grade_live).all()))
-""")
-code(r"""
-a = summary("09")["audit"]
-acc = pd.DataFrame(a["accuracy"]).T[["population_weighted", "agree_stratum", "disagree_stratum", "clear_items_only"]]
-display(acc.round(3))
-print("held-out pairs:", a["n"], "| reference labels:", a["auditor"])
-fig("fig8_agent_audit")
 """)
 
 md(r"""

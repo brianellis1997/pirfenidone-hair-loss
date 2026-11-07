@@ -282,8 +282,8 @@ def fig8_agent_audit():
              ("deepseek/deepseek-chat-v3.1", "DeepSeek v3.1 alone"), ("openai/gpt-4o-mini (shadow, no vote)", "GPT-4o-mini alone")]
     fig, (a, b) = plt.subplots(1, 2, figsize=(DOUBLE, 1.9), gridspec_kw={"width_ratios": [1.3, 1]})
     y = np.arange(len(names))
-    a.barh(y + 0.18, [v2[k]["population_weighted"] * 100 for k, _ in names], height=0.34, color=LIGHT, label="v2, 60 unseen pairs")
-    a.barh(y - 0.18, [v3["accuracy"][k]["population_weighted"] * 100 for k, _ in names], height=0.34, color=BLUE, label="v3, 40 new unseen pairs")
+    a.barh(y + 0.18, [v2[k]["population_weighted"] * 100 for k, _ in names], height=0.34, color=LIGHT, label="v2, 60 held-out pairs")
+    a.barh(y - 0.18, [v3["accuracy"][k]["population_weighted"] * 100 for k, _ in names], height=0.34, color=BLUE, label="v3, 40 new held-out pairs")
     for i, (k, _) in enumerate(names):
         a.text(v3["accuracy"][k]["population_weighted"] * 100 + 1, i - 0.18, f"{v3['accuracy'][k]['population_weighted'] * 100:.0f}%", va="center", fontsize=6.4)
     a.set_yticks(y)
@@ -343,5 +343,70 @@ def fig9_dose():
     save(fig, "fig9_dose")
 
 
-for f in (fig1_workflow, fig2_calibration, fig3_scarring, fig4_pirfenidone, fig5_localization, fig6_faers, fig7_genetics, fig8_agent_audit, fig9_dose):
+def fig10_agent_workflow():
+    v1 = json.loads((RESULTS / "09_v1" / "09_summary.json").read_text())["reliability"]
+    v2 = json.loads((RESULTS / "09_v2" / "09_summary.json").read_text())["audit"]["accuracy"]["pipeline"]
+    v3 = json.loads((RESULTS / "09_summary.json").read_text())["audit"]["accuracy"]["pipeline"]
+    v4 = json.loads((RESULTS / "16_summary.json").read_text())["accuracy"]
+    fig = plt.figure(figsize=(DOUBLE, 3.55))
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 54)
+    ax.axis("off")
+
+    def arrow(x0, y0, x1, y1):
+        ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle="-|>", mutation_scale=7, color=GRAY, lw=1.0,
+                                     shrinkA=0, shrinkB=0))
+
+    def panel(x, y, w, h, hot=False):
+        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.2,rounding_size=0.8",
+                                    fc="#E6EEF8" if hot else "white", ec="#B9CBE6" if hot else LIGHT, lw=0.8))
+
+    ax.text(0.6, 53.4, "a  The agent", fontsize=8.5, fontweight="bold", va="top")
+    steps = [("Claims", "5 links in the hypothesis,\n12 drug claims"), ("PubMed", "top 60 or 40 per claim,\nfrozen: 487 pairs"),
+             ("Two reviewers", "Llama 3.3 70B and\nDeepSeek V3.1 label\nstance, type, quote"),
+             ("Quote check", "code confirms each\nquote is in the abstract"),
+             ("Tie rule", "if they disagree:\nGemini (v3), Llama (v4)"), ("Grade rules", "fixed in code before\nany run: Strong ... None")]
+    w, gap, y = 14.6, 2.28, 35.5
+    for k, (title, body) in enumerate(steps):
+        x = 0.6 + k * (w + gap)
+        panel(x, y, w, 12.5, hot=k in (2, 4))
+        ax.text(x + w / 2, y + 11.2, title, fontsize=6.8, fontweight="bold", ha="center", va="top")
+        ax.text(x + w / 2, y + 7.4, body, fontsize=5.6, ha="center", va="top", color=MUTED, linespacing=1.2)
+        if k < len(steps) - 1:
+            arrow(x + w + 0.3, y + 6.25, x + w + gap - 0.3, y + 6.25)
+
+    ax.text(0.6, 30.0, "b  Four versions, each audited blind", fontsize=8.5, fontweight="bold", va="top")
+    versions = [("v1", f"\u03ba {v1['cohen_kappa_stance']:.2f}\nquotes {100 * v1['quotes_found_verbatim']:.0f}% verbatim",
+                 "stance flipped;\nsearch too shallow"),
+                ("v2", f"blind audit\n{100 * v2['population_weighted']:.0f}% (60 pairs)", "wrong organ\nand route"),
+                ("v3", f"held-out audit\n{100 * v3['population_weighted']:.0f}% (40 pairs)", "fix over-applies;\nGemini ties 50%"),
+                ("v4", f"fresh audit\n{100 * v4['v4 pipeline (Llama breaks ties)']['population_weighted']:.0f}% (40 pairs)",
+                 f"Llama breaks ties;\nv3 rule: "
+                 f"{100 * v4['v3 pipeline (Gemini breaks ties)']['population_weighted']:.0f}%")]
+    w2, gap2, y2 = 13.4, 1.6, 2.0
+    for k, (name, stat, note) in enumerate(versions):
+        x = 0.6 + k * (w2 + gap2)
+        panel(x, y2, w2, 23.5, hot=k == 3)
+        ax.text(x + 1.0, y2 + 22.3, name, fontsize=8, fontweight="bold", va="top", color=BLUE if k == 3 else INK)
+        ax.text(x + 1.0, y2 + 16.6, stat, fontsize=5.7, va="top", color=INK, linespacing=1.25)
+        ax.text(x + 1.0, y2 + 8.6, ("broke:\n" if k < 3 else "kept:\n") + note, fontsize=5.7, va="top",
+                color=ORANGE if k < 3 else BLUE, linespacing=1.25)
+        if k < 3:
+            arrow(x + w2 + 0.25, y2 + 11.75, x + w2 + gap2 - 0.25, y2 + 11.75)
+
+    ax.text(61.6, 30.0, "c  Grades vs data it never read", fontsize=8.5, fontweight="bold", va="top")
+    checks = [("Bald scalp expression", "agrees"), ("Fibroblast drug response", "agrees at 1 mM"), ("Scalp cell atlas", "agrees"),
+              ("FDA adverse events", "leans positive"), ("Genetics (GWAS, eQTL)", "does not confirm"),
+              ("Signature screen", "fails calibration")]
+    for k, (name, verdict) in enumerate(checks):
+        col, row = k % 2, k // 2
+        x, yy = 61.6 + col * 19.2, 18.2 - row * 8.1
+        ax.add_patch(FancyBboxPatch((x, yy), 18.2, 7.0, boxstyle="round,pad=0.2,rounding_size=0.7", fc="#F3F5F7", ec="none"))
+        ax.text(x + 0.9, yy + 4.7, name, fontsize=5.9, fontweight="bold", va="center")
+        ax.text(x + 0.9, yy + 2.0, verdict, fontsize=5.7, va="center", color=ORANGE if k >= 4 else BLUE)
+    save(fig, "fig10_agent_workflow")
+
+for f in (fig1_workflow, fig2_calibration, fig3_scarring, fig4_pirfenidone, fig5_localization, fig6_faers, fig7_genetics, fig8_agent_audit, fig9_dose,
+          fig10_agent_workflow):
     f()

@@ -2,10 +2,16 @@
 
 Code for my High-risk Project in A I 380H, AI in Healthcare (UT Austin, Fall 2026). Brian Ellis.
 
-Pirfenidone is an approved drug for lung scarring (idiopathic pulmonary fibrosis). Male pattern hair loss has a
-scarring side next to the hormonal one, and nobody has published a test of whether pirfenidone reaches it. This project
-checks the idea against public gene expression, genetics, single-cell, FDA adverse event and literature data, and builds
-an LLM evidence agent whose grades are checked against blind reference labels.
+The project asks whether you can trust an LLM agent to grade the medical literature for a drug-repurposing idea, and
+how you would know when not to. The agent has two reviewer models (Llama 3.3 70B and DeepSeek V3.1) that label every
+abstract against a claim with a verbatim quote, a code-level quote check, a tie rule, and grading rules fixed in code. It
+went through four versions, each audited blind on papers it was never tuned on: 78% and 89% on held-out audits, then 96%
+on a fresh audit once Llama broke the ties (91% for the old rule on the same pairs). The audit answer keys were labeled
+by Claude, not by domain experts. Agreement between the two reviewers marks the labels to trust.
+
+The test case is pirfenidone, an approved drug for lung scarring, for male pattern hair loss. Nobody has published a test
+of it. The agent's grades are then checked against public gene expression, single-cell, FDA adverse event and genetic
+data that it never read.
 
 The report, slides and recorded presentation are turned in on Canvas. This repo is the code.
 
@@ -21,7 +27,7 @@ the dose arithmetic) to show the saved results come from the code.
 | Path | What's there |
 |---|---|
 | `analysis/00_download_data.sh` | Downloads every public dataset into `data/` (about 800 MB, mostly the baldness GWAS) |
-| `analysis/01_*.py` to `15_*.py` | One script per research track, run in order. Each writes `results/NN_*` and `results/NN_summary.json` |
+| `analysis/01_*.py` to `16_*.py` | One script per research track. Each writes `results/NN_*` and `results/NN_summary.json`. `09` is the agent, `16` its version 4 fresh audit, `15` the report figures |
 | `analysis/run_all.sh` | Rebuilds everything from scratch |
 | `src/` | Dataset loaders, differential expression and drug scoring |
 | `results/` | Every table and summary, with run logs in `results/logs/` |
@@ -35,7 +41,7 @@ the dose arithmetic) to show the saved results come from the code.
 
 ```bash
 pip install -r requirements.txt   # Python 3.11
-zsh analysis/run_all.sh           # downloads the data, then runs tracks 01 to 15 (about 10 minutes after downloads)
+zsh analysis/run_all.sh           # downloads the data, then runs tracks 01 to 16 (about 10 minutes after downloads)
 ```
 
 The evidence agent replays every LLM reply from `data/llm_agent/`, so a rebuild needs no API key. Only a fresh run with

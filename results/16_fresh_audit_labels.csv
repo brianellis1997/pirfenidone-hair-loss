@@ -1,0 +1,41 @@
+audit_id,audit_stance,audit_type,audit_confidence,note
+26,supports,human_patients_or_tissue,ambiguous,"Serum markers only; authors conclude androgen-driven fibrosis in AGA, no scalp histology"
+32,none,human_patients_or_tissue,clear,"Trichoscopy only; AGA features were diameter diversity and peripilar sign, fibrosis not assessed"
+88,none,review,clear,"EV review; mentions TGF-b/SMAD suppression, not androgens raising TGF-b"
+94,none,human_cells,clear,Treatment lowered TGFB1 in DHT-treated DPCs; DHT-induced rise not shown
+96,none,human_patients_or_tissue,ambiguous,"Bald vs haired scalp arrays; TGF-b pathway genes down, androgens not tested"
+97,none,human_patients_or_tissue,clear,Serum DHT and TGF-b1 both elevated in AGA; no follicle or causal test
+101,none,animal,clear,Goat brush hair gene screen; no androgen or TGF-beta measured
+102,none,animal,clear,Cardamonin regulated TGF-b in AGA mice; androgen-induced TGF-b rise not shown
+114,none,human_cells,ambiguous,F2 lowered TGF-b2 in DHT models; DHT-induced TGF-b2 rise not explicit
+117,none,human_cells,clear,Herb extract lowered TGF-b1 transcripts in DPCs; no DHT-versus-control TGF-b data
+152,none,animal,ambiguous,TSK knockout: delayed hair cycle with low TGF-b1; phase direction unstated
+162,none,animal,ambiguous,Kartogenin lowered TGF-b2 in ORSCs and delayed catagen; causal link not shown
+173,none,animal,ambiguous,"Activin, not TGF-beta; receptor block delayed morphogenesis and catagen-telogen transition"
+175,supports,human_ex_vivo,clear,TGF-beta induced catagen-like changes in cultured human anagen follicles
+181,none,review,clear,Lung ILD guideline; no pirfenidone data in skin or dermal fibroblasts
+194,none,animal,clear,Transdermal pirfenidone permeation in pig skin; no fibrosis or collagen outcomes
+230,none,review,clear,"Lung HRCT review; pirfenidone slows IPF, nothing on skin"
+235,none,review,clear,"SSc therapy review; pirfenidone listed as awaiting data, no skin conclusion"
+236,none,review,clear,"Pulmonary fibrosis pharmacotherapy review; lung only, no skin evidence"
+244,supports,human_patients_or_tissue,clear,"8% pirfenidone gel in localized scleroderma well tolerated, no side effects"
+256,none,animal,clear,"Topical PFD at rat laminectomy site, not skin; no safety data"
+267,none,animal,clear,"Topical PFD ointment in horses; efficacy only, no safety or tolerability reported"
+268,none,animal,clear,Topical PFD reduced ECM in lymphedema mice; safety not reported
+300,none,review,clear,"ILD review; pirfenidone slows lung function decline, nothing on skin"
+323,none,human_patients_or_tissue,clear,Oral pirfenidone in IPF lungs; skin only mentioned as adverse events
+357,none,animal,clear,"Spinal cord injury rats; skin scar effect only background, not tested"
+358,supports,human_cells,clear,Tranilast cut keloid fibroblast collagen synthesis and implanted keloid hydroxyproline
+366,none,human_patients_or_tissue,clear,"Topical tranilast for ocular cGVHD dry eye; eye, not skin"
+375,none,human_patients_or_tissue,clear,Oral tranilast for coronary restenosis; skin keloid mention is background only
+380,supports,human_cells,clear,Tranilast suppressed collagen synthesis and TGF-b1 release in keloid and scar fibroblasts
+397,none,animal,clear,"Losartan reduced cardiac infarct scar collagen in rabbits; heart, not skin"
+427,none,animal,clear,"Losartan blocked collagen synthesis in rat cardiac fibroblasts; heart, not skin"
+429,supports,animal,clear,Losartan-treated rat skin scars narrower than controls; TGF-b data mainly ACEI
+431,none,human_patients_or_tissue,clear,Lisinopril alopecia resolved after switch to losartan; regrowth credited to stopping lisinopril
+447,none,review,clear,"CTD-ILD fibrosis review; nintedanib efficacy in lungs, not skin"
+463,none,human_patients_or_tissue,clear,"Nintedanib before lung transplant; lung outcomes and safety only, no skin fibrosis"
+464,none,other,clear,Decision analysis of nintedanib value for ILD; no skin fibrosis data
+470,none,review,clear,"SSc trial review; nintedanib approved for SSc-ILD, no skin conclusion"
+473,none,human_patients_or_tissue,ambiguous,Alopecia 71% with nintedanib plus docetaxel; cannot attribute to nintedanib
+478,none,human_cells,ambiguous,"Galunisertib cut TGF-b1 myofibroblast induction, but in gingival fibroblasts, not skin"

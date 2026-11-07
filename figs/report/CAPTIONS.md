@@ -38,7 +38,7 @@ baldness genes they often are (10 of 23 testable pairs). For the TGF-beta and sc
 report this as a negative result.
 
 **Figure 8. Blind audits of the LLM evidence agent.**
-- (a) After two rounds of fixes, the pipeline labels 89% of unseen papers correctly. GPT-4o-mini
+- (a) After two rounds of fixes, the pipeline labels 89% of held-out papers correctly. GPT-4o-mini
   alone manages 64%.
 - (b) When the two reviewer models agree they are right 95% of the time; when they disagree, 50%. Disagreement is the
   cue for human review.
@@ -51,3 +51,10 @@ report this as a negative result.
 - A skin gel averages a similar level across the whole dermis.
 - Tissue right at an application site reaches tens of mM (rabbit eye).
 - The proposed lab test therefore includes a dose-response.
+
+**Figure 10. The agent's workflow** (Figure 1 of the AI-first report, Nov 4).
+- (a) The evidence agent: claims, frozen PubMed retrieval, two reviewer models, a code-level quote check, a tie rule and
+  grading rules fixed before any run.
+- (b) Four versions, each audited blind on papers it was never tuned on: what each audit found, and the fix the next
+  version made. Version 4 lets Llama break ties and is scored on a fresh audit (`analysis/16_llama_tiebreak_fresh_audit.py`).
+- (c) The agent's grades checked against public data it never read.

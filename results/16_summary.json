@@ -1,0 +1,58 @@
+{
+ "question": "Does letting Llama break ties beat the Gemini tiebreaker on a fresh audit?",
+ "auditor": "Claude Opus 5.5 subagent, reading only the claim and the abstract, never the model labels",
+ "n": 40,
+ "n_agree": 20,
+ "n_disagree": 20,
+ "n_clear": 32,
+ "full_run_agreement_rate": 0.8542094455852156,
+ "accuracy": {
+  "v3 pipeline (Gemini breaks ties)": {
+   "agree_stratum": 1.0,
+   "disagree_stratum": 0.4,
+   "population_weighted": 0.9125256673511294,
+   "clear_items_only": 0.78125
+  },
+  "v4 pipeline (Llama breaks ties)": {
+   "agree_stratum": 1.0,
+   "disagree_stratum": 0.7,
+   "population_weighted": 0.9562628336755646,
+   "clear_items_only": 0.875
+  },
+  "Llama 3.3 alone": {
+   "agree_stratum": 1.0,
+   "disagree_stratum": 0.7,
+   "population_weighted": 0.9562628336755646,
+   "clear_items_only": 0.875
+  },
+  "DeepSeek V3.1 alone": {
+   "agree_stratum": 1.0,
+   "disagree_stratum": 0.1,
+   "population_weighted": 0.868788501026694,
+   "clear_items_only": 0.625
+  },
+  "GPT-4o-mini (shadow)": {
+   "agree_stratum": 0.8,
+   "disagree_stratum": 0.1,
+   "population_weighted": 0.6979466119096509,
+   "clear_items_only": 0.5
+  }
+ },
+ "gemini_on_disagreements_it_saw": 0.42857142857142855,
+ "excluded_pmids": 155,
+ "disagreements_mcnemar": {
+  "v4_right_v3_wrong": 7,
+  "v3_right_v4_wrong": 1,
+  "exact_p": 0.0703125,
+  "disagreements_right": {
+   "v3": 8,
+   "v4": 14,
+   "n": 20
+  },
+  "pooled_with_v3_audit": {
+   "llama_right": 30,
+   "tiebreak_pipeline_right": 18,
+   "n": 40
+  }
+ }
+}

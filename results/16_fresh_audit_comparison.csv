@@ -1,0 +1,41 @@
+audit_id,claim_id,pmid,audit_stance,audit_confidence,resolution,final,v4,A_stance,B_stance,C_stance,S_stance,note
+26,C1 scarring in bald scalp,32969583,supports,ambiguous,agree,supports,supports,supports,supports,,supports,"Serum markers only; authors conclude androgen-driven fibrosis in AGA, no scalp histology"
+32,C1 scarring in bald scalp,26512168,none,clear,majority,none,supports,supports,none,none,supports,"Trichoscopy only; AGA features were diameter diversity and peripilar sign, fibrosis not assessed"
+88,C2 DHT raises TGF-beta,42756864,none,clear,three-way split,unresolved,none,none,supports,contradicts,contradicts,"EV review; mentions TGF-b/SMAD suppression, not androgens raising TGF-b"
+94,C2 DHT raises TGF-beta,40016758,none,clear,majority,contradicts,contradicts,contradicts,supports,contradicts,supports,Treatment lowered TGFB1 in DHT-treated DPCs; DHT-induced rise not shown
+96,C2 DHT raises TGF-beta,31511972,none,ambiguous,majority,none,none,none,supports,none,none,"Bald vs haired scalp arrays; TGF-b pathway genes down, androgens not tested"
+97,C2 DHT raises TGF-beta,38390155,none,clear,majority,none,none,none,supports,none,supports,Serum DHT and TGF-b1 both elevated in AGA; no follicle or causal test
+101,C2 DHT raises TGF-beta,23735839,none,clear,agree,none,none,none,none,,none,Goat brush hair gene screen; no androgen or TGF-beta measured
+102,C2 DHT raises TGF-beta,38353836,none,clear,majority,none,none,none,supports,none,supports,Cardamonin regulated TGF-b in AGA mice; androgen-induced TGF-b rise not shown
+114,C2 DHT raises TGF-beta,24789999,none,ambiguous,majority,supports,none,none,supports,supports,contradicts,F2 lowered TGF-b2 in DHT models; DHT-induced TGF-b2 rise not explicit
+117,C2 DHT raises TGF-beta,33911645,none,clear,majority,supports,contradicts,contradicts,supports,supports,contradicts,Herb extract lowered TGF-b1 transcripts in DPCs; no DHT-versus-control TGF-b data
+152,C3 TGF-beta stops hair growth,22995554,none,ambiguous,majority,none,none,none,supports,none,supports,TSK knockout: delayed hair cycle with low TGF-b1; phase direction unstated
+162,C3 TGF-beta stops hair growth,35370470,none,ambiguous,majority,supports,contradicts,contradicts,supports,supports,contradicts,Kartogenin lowered TGF-b2 in ORSCs and delayed catagen; causal link not shown
+173,C3 TGF-beta stops hair growth,16127153,none,ambiguous,majority,supports,none,none,supports,supports,supports,"Activin, not TGF-beta; receptor block delayed morphogenesis and catagen-telogen transition"
+175,C3 TGF-beta stops hair growth,9856801,supports,clear,agree,supports,supports,supports,supports,,supports,TGF-beta induced catagen-like changes in cultured human anagen follicles
+181,C4 pirfenidone is antifibrotic in skin,40907995,none,clear,agree,none,none,none,none,,none,Lung ILD guideline; no pirfenidone data in skin or dermal fibroblasts
+194,C4 pirfenidone is antifibrotic in skin,26114208,none,clear,agree,none,none,none,none,,none,Transdermal pirfenidone permeation in pig skin; no fibrosis or collagen outcomes
+230,C4 pirfenidone is antifibrotic in skin,25432871,none,clear,agree,none,none,none,none,,supports,"Lung HRCT review; pirfenidone slows IPF, nothing on skin"
+235,C4 pirfenidone is antifibrotic in skin,19132559,none,clear,agree,none,none,none,none,,none,"SSc therapy review; pirfenidone listed as awaiting data, no skin conclusion"
+236,C4 pirfenidone is antifibrotic in skin,23265249,none,clear,agree,none,none,none,none,,none,"Pulmonary fibrosis pharmacotherapy review; lung only, no skin evidence"
+244,C5 topical pirfenidone is tolerated,25533576,supports,clear,agree,supports,supports,supports,supports,,supports,"8% pirfenidone gel in localized scleroderma well tolerated, no side effects"
+256,C5 topical pirfenidone is tolerated,33618225,none,clear,majority,supports,none,none,supports,supports,supports,"Topical PFD at rat laminectomy site, not skin; no safety data"
+267,C5 topical pirfenidone is tolerated,18426078,none,clear,majority,none,none,none,supports,none,supports,"Topical PFD ointment in horses; efficacy only, no safety or tolerability reported"
+268,C5 topical pirfenidone is tolerated,35652284,none,clear,majority,none,none,none,supports,none,none,Topical PFD reduced ECM in lymphedema mice; safety not reported
+300,pirfenidone | antifibrotic in skin,38648021,none,clear,agree,none,none,none,none,,supports,"ILD review; pirfenidone slows lung function decline, nothing on skin"
+323,pirfenidone | antifibrotic in skin,31445389,none,clear,agree,none,none,none,none,,none,Oral pirfenidone in IPF lungs; skin only mentioned as adverse events
+357,tranilast | antifibrotic in skin,25194634,none,clear,majority,supports,none,none,supports,supports,supports,"Spinal cord injury rats; skin scar effect only background, not tested"
+358,tranilast | antifibrotic in skin,1376711,supports,clear,agree,supports,supports,supports,supports,supports,supports,Tranilast cut keloid fibroblast collagen synthesis and implanted keloid hydroxyproline
+366,tranilast | antifibrotic in skin,19633693,none,clear,majority,none,none,none,supports,none,supports,"Topical tranilast for ocular cGVHD dry eye; eye, not skin"
+375,tranilast | antifibrotic in skin,10539831,none,clear,majority,supports,none,none,supports,supports,supports,Oral tranilast for coronary restenosis; skin keloid mention is background only
+380,tranilast | antifibrotic in skin,1282576,supports,clear,agree,supports,supports,supports,supports,,supports,Tranilast suppressed collagen synthesis and TGF-b1 release in keloid and scar fibroblasts
+397,losartan | antifibrotic in skin,19429818,none,clear,agree,none,none,none,none,,supports,"Losartan reduced cardiac infarct scar collagen in rabbits; heart, not skin"
+427,losartan | antifibrotic in skin,15345478,none,clear,agree,none,none,none,none,,supports,"Losartan blocked collagen synthesis in rat cardiac fibroblasts; heart, not skin"
+429,losartan | antifibrotic in skin,29463869,supports,clear,agree,supports,supports,supports,supports,,supports,Losartan-treated rat skin scars narrower than controls; TGF-b data mainly ACEI
+431,losartan | good for hair,27269276,none,clear,majority,supports,supports,supports,contradicts,supports,contradicts,Lisinopril alopecia resolved after switch to losartan; regrowth credited to stopping lisinopril
+447,nintedanib | antifibrotic in skin,33037004,none,clear,agree,none,none,none,none,,none,"CTD-ILD fibrosis review; nintedanib efficacy in lungs, not skin"
+463,nintedanib | antifibrotic in skin,29564136,none,clear,agree,none,none,none,none,,none,"Nintedanib before lung transplant; lung outcomes and safety only, no skin fibrosis"
+464,nintedanib | antifibrotic in skin,35912833,none,clear,agree,none,none,none,none,,none,Decision analysis of nintedanib value for ILD; no skin fibrosis data
+470,nintedanib | antifibrotic in skin,33887472,none,clear,agree,none,none,none,none,,none,"SSc trial review; nintedanib approved for SSc-ILD, no skin conclusion"
+473,nintedanib | good for hair,25299232,none,ambiguous,majority,contradicts,contradicts,contradicts,none,contradicts,contradicts,Alopecia 71% with nintedanib plus docetaxel; cannot attribute to nintedanib
+478,galunisertib | antifibrotic in skin,40766781,none,ambiguous,majority,supports,none,none,supports,supports,supports,"Galunisertib cut TGF-b1 myofibroblast induction, but in gingival fibroblasts, not skin"
